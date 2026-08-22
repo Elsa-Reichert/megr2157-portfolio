@@ -20,8 +20,16 @@ Her portfiolo does not give the reader enough informatino to replecate without a
 She does not show how decisions were made during her projects throughtout her portfolio. 
 
 Her language does meet the standrard of something you would give to an employeer. The writing is very direct, using correct grammer and poctuation, and does not use slang.
-## Analyze
+## Product Analyze
+The product I choice to analize was a mechanical pencil. The primary function of this product is to push out a small portion of graphite and keep it stable to allow the user to write. There is also a replaceable eracer on the top of the pencil, removeable top to refill with graphite as needed, and an enclosed space for graphite. 
 
+The model I am looking at is the Pentel mechanical pencil. USD611535S1 
+
+The removable top of the pencil and eraser both use friction. This allows them to stay put when being used or carried but makes it super easy to switch out the eraser or add more graphite by just adding a little force.
+
+The eraser can twist both up and down as needed because of a plastic screw like mechanicism at the top. This plastic screw turns rotational movement and torque to linear movement. The end of the plastic screw slides inside the buttom section of the pencil. Each section can twist freely, but the static friction between the screw and the bottom section of the pencil causes the screw to twist with it.
+
+The graphite dispenser works anytime force is applied to the top of the pencil. The top of the pencil is able to push down because it is slightly bigger and these two parts are kept together with friction. This action apllies force to a spring near the bottom that moves the graphite. The grpahite comes out of a cylinder broken in two. This cylinder is a circular stopper keeping the two pieces in place. When you applie force at the top, the cylinder is pushed down by the spring, while the circular stopper is kept still by the normal force caused by the pencil topper. When the cylinder is pushed down, the two pieces slipt apart, alloying the graphite to move down. When you stop allying force at the top, the elastic potential enegry caused my compressing the spring causes a force in the oppostie direction and resets the system. 
 
 
 ## Decide
