@@ -20,10 +20,13 @@ Her portfiolo does not give the reader enough informatino to replecate without a
 She does not show how decisions were made during her projects throughtout her portfolio. 
 
 Her language does meet the standrard of something you would give to an employeer. The writing is very direct, using correct grammer and poctuation, and does not use slang.
+
+
 ## Product Analyze
+USD611535S1
 The product I choice to analize was a mechanical pencil. The primary function of this product is to push out a small portion of graphite and keep it stable to allow the user to write. There is also a replaceable eracer on the top of the pencil, removeable top to refill with graphite as needed, and an enclosed space for graphite. 
 
-The model I am looking at is the Pentel mechanical pencil. USD611535S1 
+The model I am looking at is the Pentel Twist-Erase mechanical pencil.  
 
 The removable top of the pencil and eraser both use friction. This allows them to stay put when being used or carried but makes it super easy to switch out the eraser or add more graphite by just adding a little force.
 
