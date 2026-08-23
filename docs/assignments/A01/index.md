@@ -28,6 +28,7 @@ The product I choice to analize was a mechanical pencil. The primary function of
 
 The model I am looking at is the Pentel Twist-Erase mechanical pencil.  
 ![full intact view of pencil](IMG_8131.jpeg)
+<img src="IMG_8131.jpeg" width="20" height="20">
 
 
 
