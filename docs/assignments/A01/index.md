@@ -27,6 +27,8 @@ USD611535S1
 The product I choice to analize was a mechanical pencil. The primary function of this product is to push out a small portion of graphite and keep it stable to allow the user to write. There is also a replaceable eracer on the top of the pencil, removeable top to refill with graphite as needed, and an enclosed space for graphite. 
 
 The model I am looking at is the Pentel Twist-Erase mechanical pencil.  
+![full intact view of pencil](Mech. Pen. Full View)
+
 
 The removable top of the pencil and eraser both use friction. This allows them to stay put when being used or carried but makes it super easy to switch out the eraser or add more graphite by just adding a little force.
 
