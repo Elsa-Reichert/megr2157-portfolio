@@ -34,7 +34,7 @@ The pencil has three pieces help together by friction, A removeable top portion,
 
 
 The eraser can twist both up and down as needed because of a plastic screw like mechanisms inside the top. This plastic screw turns rotational movement and torque to linear movement. The end of the plastic screw slides inside the body section of the pencil. Each section can twist freely, but the static friction between the screw like mechanism and the body section of the pencil causes the screw to twist with it and moves the eraser either up or down.
-![Plastic Screw](
+![Plastic Screw](IMG_8133.jpeg)
 
 
 The graphite dispenser works anytime force is applied to the eraser end of the pencil.
