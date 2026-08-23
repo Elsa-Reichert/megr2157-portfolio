@@ -42,7 +42,9 @@ The graphite rests in a cylinder split into two pieces. Around this cylinder is 
 ![Graphite in cylinder and stopper](IMG_8139.jpeg
 ) ![Graphite in cylinder no stopper](IMG_8140.jpeg
 )
-To apply force to the eraser end of the pencil, all you have to do is push down to click it. This is able to happen because the top portion of the pencil is slightly bigger than the body and held together only my friction. Clicking eraser end of the pencil applies force to a spring located near the graphite tip of the pencil and moves both the graphite and two half cylinders. The normal force from the plastic tip keeps the circular stopper in place, allowing the two cylinder halves to split and dispense graphite. When you stop applying force at the eraser end, the elastic potential energy caused by compressing the spring caused a force in the opposite direction and resets the system. 
+To apply force to the eraser end of the pencil, all you have to do is push down to click it. This is able to happen because the top portion of the pencil is slightly bigger than the body and held together only my friction. Clicking eraser end of the pencil applies force to a spring located near the graphite tip of the pencil and moves both the graphite and two half cylinders. The normal force from the plastic tip keeps the circular stopper in place, allowing the two cylinder halves to split and dispense graphite. 
+![plastic tip](
+When you stop applying force at the eraser end, the elastic potential energy caused by compressing the spring caused a force in the opposite direction and resets the system. 
 
 
 
