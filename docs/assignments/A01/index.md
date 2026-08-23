@@ -30,7 +30,8 @@ The model I am looking at is the Pentel Twist-Erase mechanical pencil.
 ![full intact view of pencil](IMG_8131.jpeg)
 
 The pencil has three pieces help together by friction, A removeable top portion, the eraser, and the body of the mechanical pencil. This allows them to stay put when being used or carried but makes it super easy to switch out the eraser or add more graphite as needed by just applying a little force.
-![Pencil In three pieces](
+![Pencil In three pieces](IMG_8147.jpeg)
+
 
 The eraser can twist both up and down as needed because of a plastic screw like mechanisms inside the top. This plastic screw turns rotational movement and torque to linear movement. The end of the plastic screw slides inside the body section of the pencil. Each section can twist freely, but the static friction between the screw like mechanism and the body section of the pencil causes the screw to twist with it and moves the eraser either up or down.
 ![Plastic Screw](
