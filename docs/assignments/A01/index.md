@@ -65,7 +65,17 @@ Photo of the plastic tip unscrewed
 
 
 ## Decide
+### Homepage
+  The homepage is the first thing the reader will see in my portfolio. This makes the layout, information and organization very important. The first thing on my homepage is a title and a quick description of what this portfolio. This description tells the reader what the portfolio is for, what structure each assignment will follow, and a reason for the structure. AFter this introduction there is another section going into more detail about the anaylize, decide, and communciate structre
+that allows the reader to know exactly what each sectino means. The last section after this is explaining what I will be doing throguhout the semester in three seperate acts. This makes finding specific assignments or topics easier to locate for a reader. Overall, the homepage is here to let the reader understand the purpose of this portfolio and show they what they can expect.
 
+### Intentional Customization
+I added more smaller subtitles under each section. This makes the page look more organized and allows the reader to find specific information inside a category a lot easier. 
+
+### Documentation Standard
+Every assignment is going to be structured in a way that is easy to follow, easy to understand, well organized, very detailed, and contains informative pictures.
 
 ## Communicate
+
+
 
