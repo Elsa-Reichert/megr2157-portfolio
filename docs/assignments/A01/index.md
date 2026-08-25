@@ -52,7 +52,7 @@ Photo of the top portion of the mechanical pencil. The threads inside are faintl
 The graphite dispenser works anytime force is applied to the eraser end of the pencil. To apply this force all you have to do is push down on the eraser to click it. This is possible because of the geometry of the top portion and body of the pencil and because the two pieces are kept together only by friction. Clicking the eraser end of the pencil applies a force to a spring located near the graphite tip of the pencil. The graphite rests in a cylinder split into two pieces. Around These half cylinders is a circular stopper that, when this system is in rest, holds the two half cylinder pieces together. This circular stopper keeps the graphite from slipping using static friction until the system is acted upon. This spring moves both the graphite and two half cylinders. The normal force from the plastic tip keeps the circular stopper in place, allowing the two cylinder halves to split and dispense graphite. When the user stops applying a force at the eraser end of the pencil, the elastic potential energy caused by compressing the spring creates a force in the opposite direction. This resets the system while keeping enough graphite out, allowing the user to write.
 
 
-Photos inside of the mechanical pencil tip. The first photo is what the mechanical pencil tip looks like at rest. The second photo shows what happens when the half cylinders are pushed down while another force keeps the cylinder stopper from moving.
+Photos of inside the mechanical pencil tip. The first photo is what the mechanical pencil tip looks like at rest. The second photo shows what happens when the half cylinders are pushed down while another force keeps the cylinder stopper from moving.
 
 
 
@@ -64,13 +64,13 @@ Photos inside of the mechanical pencil tip. The first photo is what the mechanic
 Photo of the plastic tip unscrewed
 ![plastic tip](IMG_8135.jpeg)
 
-###Patent Research
+### Patent Research
 The patent number for the pencil is USD611535S1 and Kazuhisa Shimizu is the author.
 
-###Alternative Solution
+### Alternative Solution
 Some alternative devices could be a wooden pencil or a ball point pen.
 
-###One Design choice
+### One Design choice
 The original engineer made a eraser holder at the top. I believe they made this choice because most pencils have an eraser in that area and the user would most likely be used it it, and it is in an easy spot to use and refill.
 
 
