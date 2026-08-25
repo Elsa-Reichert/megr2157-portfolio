@@ -24,30 +24,43 @@ Her language does meet the standrard of something you would give to an employeer
 
 ## Product Analyze
 USD611535S1
-The product I choice to analize was a mechanical pencil. The primary function of this product is to push out a small portion of graphite and keep it stable to allow the user to write. There is also a replaceable eracer on the top of the pencil, removeable top to refill with graphite as needed, and an enclosed space for graphite. 
 
-The model I am looking at is the Pentel Twist-Erase mechanical pencil.  
+  The product I choice to analyze was a mechanical pencil. The primary function of this product is to push out a small portion of graphite as needed and keep it at rest to allow the user to write. . 
+
+  This product uses a combination of different physics properties to accomplish this primary function, such as static friction, screws, springs, and normal force. I will describe how these physical properties work in the mechanical pencil and what they accomplish for a specific model of mechanical pencil. 
+
+  The model I am looking at is the Pentel Twist-Erase mechanical pencil.  
 ![full intact view of pencil](IMG_8131.jpeg)
 
-The pencil has three pieces help together by friction, A removeable top portion, the eraser, and the body of the mechanical pencil. This allows them to stay put when being used or carried but makes it super easy to switch out the eraser or add more graphite as needed by just applying a little force.
+  The pencil has three pieces help together by friction, A removeable top portion, the eraser, and the body of the mechanical pencil. This allows them to stay put when being used or carried but makes it super easy to switch out the eraser or add more graphite as needed by just applying a little force.
+
+Photo of the mechanical pencil in three pieces.
 ![Pencil In three pieces](IMG_8147.jpeg)
 
 
-The eraser can twist both up and down as needed because of a plastic screw like mechanisms inside the top. This plastic screw turns rotational movement and torque to linear movement. The end of the plastic screw slides inside the body section of the pencil. Each section can twist freely, but the static friction between the screw like mechanism and the body section of the pencil causes the screw to twist with it and moves the eraser either up or down.
+  The eraser can move up and down as needed by simply twisting either section of the mechanical pencil. This is because of a screw like mechanism inside the top portion of the pencil holding the eraser. This works because screws turn rotational movement and torque into linear movement. The top portion and body of the mechanical pencil are held together by static friction, which is what allows the user to rotate either side and that friction is the force acting upon the screw inside the pencil.
+
+Photo of the top portion of the mechanical pencil. The threads inside are faintly visible.
 ![Plastic Screw](IMG_8133.jpeg)
 
 
-The graphite dispenser works anytime force is applied to the eraser end of the pencil.
-The graphite rests in a cylinder split into two pieces. Around this cylinder is a circular stopper that when this system is in rest, holds the two half cylinder pieces together tight enough to hold the graphite tother with friction. 
 
-![Graphite in cylinder and stopper](IMG_8139.jpeg
+
+  The graphite dispenser works anytime force is applied to the eraser end of the pencil. To apply this force all you have to do is push down on the eraser to click it. This is possible because of the geometry of the top portion and body of the pencil and because the two pieces are kept together only by friction. Clicking the eraser end of the pencil applies a force to a spring located near the graphite tip of the pencil. The graphite rests in a cylinder split into two pieces. Around These half cylinders is a circular stopper that, when this system is in rest, holds the two half cylinder pieces together. This circular stopper keeps the graphite from slipping using static friction until the system is acted upon. This spring moves both the graphite and two half cylinders. The normal force from the plastic tip keeps the circular stopper in place, allowing the two cylinder halves to split and dispense graphite. When the user stops applying a force at the eraser end of the pencil, the elastic potential energy caused by compressing the spring creates a force in the opposite direction. This resets the system while keeping enough graphite out, allowing the user to write.
+
+
+Photos inside of the mechanical pencil tip. The first photo is what the mechanical pencil tip looks like at rest. The second photo shows what happens when the half cylinders are pushed down while another force keeps the cylinder stopper from moving.
+
+
+
+![Graphite in cylinder and stopper](IMG_8140.jpeg
 )
-![Graphite in cylinder no stopper](IMG_8140.jpeg
+![Graphite in cylinder no stopper](IMG_8139.jpeg
 )
 
-To apply force to the eraser end of the pencil, all you have to do is push down to click it. This is able to happen because the top portion of the pencil is slightly bigger than the body and held together only my friction. Clicking eraser end of the pencil applies force to a spring located near the graphite tip of the pencil and moves both the graphite and two half cylinders. The normal force from the plastic tip keeps the circular stopper in place, allowing the two cylinder halves to split and dispense graphite. 
-![plastic tip](
-When you stop applying force at the eraser end, the elastic potential energy caused by compressing the spring caused a force in the opposite direction and resets the system. 
+Photo of the plastic tip unscrewed
+![plastic tip](IMG_8135.jpeg)
+
 
 
 
