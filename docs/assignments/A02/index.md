@@ -67,6 +67,7 @@ The next step was to find the approximate weight of the truss. To do this I used
 I then needed to find the minimum area of the pin using shear strain.
 <img width="568" height="420" alt="image" src="https://github.com/user-attachments/assets/3b0f83a5-77e8-48d7-86d2-e3fb83df38f9" />
 <img width="572" height="207" alt="image" src="https://github.com/user-attachments/assets/b4e54a35-8194-4d83-9dbd-42da4dd66aff" />
+<img width="417" height="347" alt="image" src="https://github.com/user-attachments/assets/abc80974-6330-491e-93d6-1ebf91c6bbcb" />
 
 
 
