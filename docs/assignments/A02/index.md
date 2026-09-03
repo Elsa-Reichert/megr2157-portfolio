@@ -5,9 +5,7 @@ My assignment was to design a truss using A500 structural steel, given force, an
 
 Here is a photo of the given forces and geometric constraints
 
-![full intact view of pencil](
-
-)
+![full intact view of pencil](CamScanner 9-2-26 23(1)_9.jpg)
 
 <img width="393" height="217" alt="image" src="https://github.com/user-attachments/assets/9b04e24a-c683-41a7-8daf-a00782f3397e" />
 Where a = .4m, b = .3m , Point A is a pin, Point B is a roller, and force P = 27.1 KN
