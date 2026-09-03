@@ -58,11 +58,13 @@ The yield strength for A500 steel was force this source: https://www.beamdimensi
 
 <img width="358" height="500" alt="image" src="https://github.com/user-attachments/assets/83053597-04af-4f43-9696-4edbb7ed9d16" />
 
-The next step was to find the approximate weight of the tress. To do this I used the crosssectional area and multipled it by the length of the intire structure to get the volume. Then I used the density of A500 steel to find the mass of the structure. The density value was found on the same beamdimesnsions.com website as the yield strength. After that All I had to do was multiple the mass by gravity.
+The next step was to find the approximate weight of the truss. To do this I used the crosssectional area and multipled it by the length of the intire structure to get the volume. Then I used the density of A500 steel to find the mass of the structure. The density value was found on the same beamdimesnsions.com website as the yield strength. After that All I had to do was multiple the mass by gravity.
 
 <img width="475" height="302" alt="image" src="https://github.com/user-attachments/assets/cc51beea-933e-466f-af30-0b97e224a8a4" />
 <img width="627" height="326" alt="image" src="https://github.com/user-attachments/assets/c14f4f1b-65e1-45b1-ac08-5524498dd275" />
 
+
+I then needed to find the minimum area of the pin using shear strain.
 <img width="568" height="420" alt="image" src="https://github.com/user-attachments/assets/3b0f83a5-77e8-48d7-86d2-e3fb83df38f9" />
 <img width="572" height="207" alt="image" src="https://github.com/user-attachments/assets/b4e54a35-8194-4d83-9dbd-42da4dd66aff" />
 
