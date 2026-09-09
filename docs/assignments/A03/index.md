@@ -7,7 +7,7 @@ The purpose of this assignment is to learn how to use parametric design to deter
 
 ## Analyze
 
-![full intact view of pencil](docs/assignments/A03/Screenshot 2026-09-08 203925.jpg) 
+docs/assignments/A03/Screenshot 2026-09-08 203925.jpg  
 ## Decide
 
 
