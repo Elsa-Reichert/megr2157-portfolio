@@ -78,6 +78,15 @@ The simulation found the maximum stress in the bar was about 1.238e+04 psi. The 
 Using this equation, I find the safety factor is about 3.25. This is about what I calculated. It is a little higher which makes sense because the radius and area are a little higher which lowered the strain. 
 ![eq for sf](https://github.com/Elsa-Reichert/megr2157-portfolio/blob/main/docs/assignments/A03/eq%20for%20safety%20factor.jpg)
 
+### Design Reflection
+The axial deflection from my parametric hand-calculations is about .009in. The FEA map caluclated the max axial deflection value as .008989 in. This is a .122% different.
+
+I did expect these values to be the same. Axial deflection is related to the geomtry and axial deflection is used to calculate the length. All these values effected the FEA map. The stresses inside the bar are also very even.
+
+I trust the results more from the FEA map. The axial deflection calculated by hand is related to stress and we can only use average stess. The FEA map can show different magnitues of stresses throughout the bar. So I beilive it would end up being more acuture. uneven stress throughout the bar could lead to more axial deflection in one area too. 
+
+###Small Pin Hole?
+![Graph of kt](https://github.com/Elsa-Reichert/megr2157-portfolio/blob/main/docs/assignments/A03/kt.jpg)
 
 ## Decide
 
