@@ -78,6 +78,17 @@ The simulation found the maximum stress in the bar was about 1.238e+04 psi. The 
 Using this equation, I find the safety factor is about 3.25. This is about what I calculated. It is a little higher which makes sense because the radius and area are a little higher which lowered the strain. 
 ![eq for sf](https://github.com/Elsa-Reichert/megr2157-portfolio/blob/main/docs/assignments/A03/eq%20for%20safety%20factor.jpg)
 
+### Modify Design Parameters
+While keeping the fixture and material the same,  I changed the force to 15,000llb and radius to 20in. I think the length will decrease because the force is changes more and at the bottom of the equation. 
+
+![design modify](https://github.com/Elsa-Reichert/megr2157-portfolio/blob/main/docs/assignments/A03/changing%20values.jpg)
+
+My guess was wrong. The length value ended up a lot bigger. The radius changed the area and that got multiplied by young's modulus. 
+
+## Decide
+I needed to design a bar with a circular cross sectional area. I needed an area big enough to keep the stress under the yield strength. I added a safety factory of 3 because it is standard and to reduce the chances of my structure failing. Using this, I find the minimum radius needed, r = .09in. The material, 1601 t6 aluminum, was chosen because it has a relatively high yield strength while still being light weight. 
+
+## Communicate
 ### Design Reflection
 The axial deflection from my parametric hand-calculations is about .009in. The FEA map caluclated the max axial deflection value as .008989 in. This is a .122% different.
 
@@ -85,11 +96,10 @@ I did expect these values to be the same. Axial deflection is related to the geo
 
 I trust the results more from the FEA map. The axial deflection calculated by hand is related to stress and we can only use average stess. The FEA map can show different magnitues of stresses throughout the bar. So I beilive it would end up being more acuture. uneven stress throughout the bar could lead to more axial deflection in one area too. 
 
-###Small Pin Hole?
+### Small Pin Hole?
+Next I need to image a pin hole at the side of the bar. 
+
 ![Graph of kt](https://github.com/Elsa-Reichert/megr2157-portfolio/blob/main/docs/assignments/A03/kt.jpg)
 
-## Decide
-
-
-## Communicate
-
+Using the equation given the maximum value at the pin hole would be about k*1.2e+4 = 37,140psi. Which is below the yield strength of aluminum (40,000 psi) but it does not pass my safety factory.
+This assignment took me about 5-6 hours to finish. 
