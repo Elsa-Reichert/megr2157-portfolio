@@ -38,7 +38,7 @@ My new struture. I was happy with how this one turned out and to change it all I
 
 Using this radius value; r = .05. I expiramented with the force and Young's Modulus values to get the longest and shortest bar. The bar's length is this longest when the force is at its maximum value and Young's Modulus is at its minimum value. This makes sense if you look at the axial defomration equation. After solving for L, F is at the bottom and E is at the top, which means when F gets bigger, L gets smaller and when E gets larger, L gets larger. 
 
-![longest L, at r = .05](docs/assignments/A03/Longest.jpg) 
+![longest L, at r = .05](https://github.com/Elsa-Reichert/megr2157-portfolio/blob/main/docs/assignments/A03/Longest.jpg) 
 ![shortest L, at r = .05](https://github.com/Elsa-Reichert/megr2157-portfolio/blob/main/docs/assignments/A03/smallest%20L.jpg) 
 
 ### FEA
