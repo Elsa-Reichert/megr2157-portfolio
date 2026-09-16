@@ -36,24 +36,37 @@ Bending
 We are given a force p that is applied to the shaft of the motor. My first step is to figure out the momentum on the end of feature one. Force P is the only force acting because we are neglecting the weight of the motor. I need to find the vertical distance of E and the force vector P. Looking at the diagram given on the motors manicfactoring webside, the shaft is about 18mm. 
 
 My first thought was to have the shaft stick out intirly and add half the height of the beam. The issue with this was I would have an unknown verrible in my moment eqution and a lot of the motor mounts have space for the shaft to stick into and stay in place. 
-[orginal sketch]
+
+<img width="353" height="257" alt="image" src="https://github.com/user-attachments/assets/67ad6c12-2967-4fac-8731-b8e8b320ea9d" />
+
 
 I then desided on something like this to find the moment and vertical distance from P. I drew a faint dotted outline of the motor. The manufactorer gave a value with a 1 mm tolenernce. I decied to use 18mm as the distance value beacuse it was close, there is a tolenernce so I wouldnt be able to get an exact value, and the body of the motor rests above the center of the beam my calulated moment value would most likely end up being higher then the actual value at that point. This is good because the motor shaft could end up a different size, and using a higher momentum will make it safer. 
-[moment sketch]
+
+<img width="630" height="445" alt="image" src="https://github.com/user-attachments/assets/aea22497-3008-426e-8566-9f7cbcb7fc59" />
+<img width="292" height="118" alt="image" src="https://github.com/user-attachments/assets/9f1875b0-48b8-4edb-9f6f-03ecbfdc6b4e" />
+
+
 
 This gives us a M = 5400 N * mm appliedat the end of the beam going clock wise.
 
 I realized the moment at the top end of the beam would be the highest. So I went back and changed the vertical distance from P value to 22mm. This extra height gives more space for the motor to sit into this feature, as while as gives me the largest postible moment calulation. 
 
-[newer one]
+<img width="575" height="461" alt="image" src="https://github.com/user-attachments/assets/b11de8bc-db0f-4e57-bd73-6398b5cf907b" />
+
 
 This gives us a M = 6600 N * mm at point e moving clock wise. Now I can use the bending equation to find the cross sectional area
 
 I first started using the max. stress. I used a rectange cross section the first time I tried to solve it and realized I would need a third equaction. Here was the math the setech for that.
 
-[picks]
+<img width="393" height="512" alt="image" src="https://github.com/user-attachments/assets/4bf78aab-5f89-44d5-802a-b4797dd79975" />
+
 
 I solved it again using a square cross sectinoal area. 
+<img width="618" height="122" alt="image" src="https://github.com/user-attachments/assets/d3d1ce9d-37e0-4038-b38f-5fa3c189a141" />
+
+<img width="322" height="410" alt="image" src="https://github.com/user-attachments/assets/b1471172-6a20-45a8-a9d9-8861d40e95a4" />
+<img width="430" height="416" alt="image" src="https://github.com/user-attachments/assets/a9a324f4-512a-4e1f-b10c-10cf6c6a2305" />
+
 
 ## Decide
 
