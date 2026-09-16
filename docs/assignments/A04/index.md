@@ -67,6 +67,9 @@ I solved it again using a square cross sectinoal area.
 <img width="322" height="410" alt="image" src="https://github.com/user-attachments/assets/b1471172-6a20-45a8-a9d9-8861d40e95a4" />
 <img width="430" height="416" alt="image" src="https://github.com/user-attachments/assets/a9a324f4-512a-4e1f-b10c-10cf6c6a2305" />
 
+Next I need to find the maximium length using the bending deflection equation
+
+
 
 ## Decide
 
