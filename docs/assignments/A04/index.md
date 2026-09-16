@@ -25,7 +25,29 @@ Imagie of the motor, the rigid wall, and the force p. P=300N
 <img width="153" height="113" alt="image" src="https://github.com/user-attachments/assets/ecc51106-ddf0-48af-ba1d-226a9c079dca" />
 
 ### Feature 1
-My first task is to design a feature of the mount that is attached to the motor. The deflection of the feature is zero and the derivative with respect to x is also zero. The safety factory needs to account for the holes for the motor shaft and screws. I need to determind the cross sectional area gemotry using the beam bending equations using analyiss for both stress and deflection. 
+My first task is to design a feature of the mount that is attached to the motor. The deflection of the feature is zero and the derivative with respect to x is also zero, which means I can treat the feature as a cantilever beam while solving for cross sectional area. The safety factory accounts for the holes and skrews in the motor mount. I need to determind the cross sectional area gemotry using the equations for both stress and deflection. 
+
+Givens: P=300, Yeild stress = 51.6 MPa, E = 3131 MPa, Max. deflection = .30 mm, Safety factor = 3
+
+I decided to use PLA for the building matrial. The source I used gave a range for both the yeild strength and Youngs Modulus. I am using the lowest posible value just to be safe. 
+
+Bending
+
+We are given a force p that is applied to the shaft of the motor. My first step is to figure out the momentum on the end of feature one. Force P is the only force acting because we are neglecting the weight of the motor. I need to find the vertical distance of E and the force vector P. Looking at the diagram given on the motors manicfactoring webside, the shaft is about 18mm. 
+
+My first thought was to have the shaft stick out intirly and add half the height of the beam. The issue with this was I would have an unknown verrible in my moment eqution and a lot of the motor mounts have space for the shaft to stick into and stay in place. 
+[orginal sketch]
+
+I then desided on something like this to find the moment and vertical distance from P. I drew a faint dotted outline of the motor. The manufactorer gave a value with a 1 mm tolenernce. I decied to use 18mm as the distance value beacuse it was close, there is a tolenernce so I wouldnt be able to get an exact value, and the body of the motor rests above the center of the beam my calulated moment value would most likely end up being higher then the actual value at that point. This is good because the motor shaft could end up a different size, and using a higher momentum will make it safer. 
+[moment sketch]
+
+This gives us a M = 5400 N * mm appliedat the end of the beam going clock wise.
+
+I realized the moment at the top end of the beam would be the highest. So I went back and changed the vertical distance from P value to 22mm. This extra height gives more space for the motor to sit into this feature, as while as gives me the largest postible moment calulation. 
+
+[newer one]
+
+This gives us a M = 6600 N * mm at point e moving clock wise. Now I can use the bending equation to find the cross sectional area
 
 
 
