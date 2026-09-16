@@ -17,6 +17,10 @@ Another simple design form [pololu.com](https://www.pololu.com/product/2266) mad
 ### Givens
 We are designing for the Brushed 24V DC Gear Motor 3.6Kg.cm/46RPM w/ 99.5:1 Planetary Gearbox attached to a ridid wall A. Maximium deflection is .30mm at the free end. The materials can be either ABS, PETG, or PLA. I need to account for a safety factory of 3. Weight of the motor can be ignored.
 
+ABS: yeild strength = 32-45MPA, E (ypungs Modulus) = 1.7 - 2.6 Gpa [source](https://matmake.com/materials-data/acrylonitrile-butadiene-styrene-properties.html)
+PETG: yeild strenth = 46.2 MPa, E = 1939 MPA. [source](https://um-support-files.ultimaker.com/materials/2.85mm/tds/PETG/Ultimaker-PETG-TDS-v1.00.pdf)
+PLA: yield strenth = 52.5 MPa, E = 3250 Mpa. [Source](https://um-support-files.ultimaker.com/materials/2.85mm/tds/PLA/Ultimaker-PLA-TDS-v5.00.pdf)
+
 Imagie of the motor, the rigid wall, and the force p. P=300N
 <img width="153" height="113" alt="image" src="https://github.com/user-attachments/assets/ecc51106-ddf0-48af-ba1d-226a9c079dca" />
 
