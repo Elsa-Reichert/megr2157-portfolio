@@ -49,7 +49,11 @@ I realized the moment at the top end of the beam would be the highest. So I went
 
 This gives us a M = 6600 N * mm at point e moving clock wise. Now I can use the bending equation to find the cross sectional area
 
+I first started using the max. stress. I used a rectange cross section the first time I tried to solve it and realized I would need a third equaction. Here was the math the setech for that.
 
+[picks]
+
+I solved it again using a square cross sectinoal area. 
 
 ## Decide
 
