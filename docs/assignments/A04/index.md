@@ -14,6 +14,17 @@ Here is a simple motor mount from [gimsonrobotics.co.uk](https://gimsonrobotics.
 <img width="600" height="425" alt="image" src="https://github.com/user-attachments/assets/f6ce1c7b-a546-40de-a827-4a2939be6e33" />
 Another simple design form [pololu.com](https://www.pololu.com/product/2266) made of aluminum. 
 
+### Givens
+We are designing for the Brushed 24V DC Gear Motor 3.6Kg.cm/46RPM w/ 99.5:1 Planetary Gearbox attached to a ridid wall A. Maximium deflection is .30mm at the free end. The materials can be either ABS, PETG, or PLA. I need to account for a safety factory of 3. Weight of the motor can be ignored.
+
+Imagie of the motor, the rigid wall, and the force p. P=300N
+<img width="153" height="113" alt="image" src="https://github.com/user-attachments/assets/ecc51106-ddf0-48af-ba1d-226a9c079dca" />
+
+### Feature 1
+My first task is to design a feature of the mount that is attached to the motor. The deflection of the feature is zero and the derivative with respect to x is also zero. The safety factory needs to account for the holes for the motor shaft and screws. I need to determind the cross sectional area gemotry using the beam bending equations using analyiss for both stress and deflection. 
+
+
+
 ## Decide
 
 
