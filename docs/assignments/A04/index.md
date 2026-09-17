@@ -92,7 +92,11 @@ Now the L calculation
 <img width="2428" height="2757" alt="IMG_8322" src="https://github.com/user-attachments/assets/7bee841d-76db-4d13-8207-35cd33953197" />
 <img width="2394" height="2365" alt="IMG_8323" src="https://github.com/user-attachments/assets/ef871f8a-f1fb-4ccc-9295-168e7f74a88c" />
 
+I realized the square geometry would not work with the design. The found a value would be to small for the motor. I was going to go through and recalculate everything for a retange but the Area and a values found are minimiums. so I don't need to. Larger a values would give me a larger L max. I will recalculate that after choosing new values. 
 
+The diamater of the motor is 22mm. I will choose 24 mm as my a value. This gives me 576 mm^2 for my area this is well above my calulated minimium area. 
+
+Pluging in a = 24mm to my L max. equation from before I get L = 72.43mm.
 
 ## Decide
 
