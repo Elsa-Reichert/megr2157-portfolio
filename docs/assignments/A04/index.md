@@ -124,6 +124,8 @@ I did not give an clearance for the shaft holes.
 <img width="940" height="315" alt="image" src="https://github.com/user-attachments/assets/d2d5f9a9-2309-4a29-8446-335050673766" />
 
 ### 3D Model Drawing
+<img width="1999" height="1545" alt="image" src="https://github.com/user-attachments/assets/396b28c5-e924-460a-82c2-4b70ff05f78d" />
+[CAD drawing PDF](
 
 
 ## Decide
