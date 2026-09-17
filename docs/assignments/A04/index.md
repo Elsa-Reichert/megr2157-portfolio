@@ -144,3 +144,6 @@ This design was created to hold a motor. I choose PLA because it had the largest
 ## Communicate
 
 This assignment took me about 6 hours to complete.
+
+[CAD Part File](https://github.com/Elsa-Reichert/megr2157-portfolio/blob/main/docs/assignments/A04/A4.SLDDRW)
+[CAD Drawing File](
