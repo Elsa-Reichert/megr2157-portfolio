@@ -8,7 +8,7 @@ Picture of the motor
 
 
 ## Analyze
-### Reseaerch
+### research
 A motor moment is designed to keep a motor place, hold the motors weight and absorb vibartions. There are four common types solid rubber, hydraulic (fluid filled rubber), polyurethane, and electronic/active. Solid rubber is the simplest, cheapest and standard for most vehicles.
 [Source](https://autobuffy.com/newsroom/what-is-a-motor-mount-engine-mounts-explained)
 
@@ -135,7 +135,7 @@ I did not give any clearance for the shaft holes. I just changed these values
 
 ### 3D Model Drawing
 <img width="1999" height="1545" alt="image" src="https://github.com/user-attachments/assets/396b28c5-e924-460a-82c2-4b70ff05f78d" />
-[CADdrawingPDF](https://github.com/Elsa-Reichert/megr2157-portfolio/blob/main/docs/assignments/A04/a4%20drawing.pdf)
+[CAD drawing PDF](https://github.com/Elsa-Reichert/megr2157-portfolio/blob/main/docs/assignments/A04/a4%20drawing.pdf)
 
 
 ## Decide
@@ -145,5 +145,5 @@ This design was created to hold a motor. I choose PLA because it had the largest
 
 This assignment took me about 6 hours to complete.
 
-[CAD Part File](https://github.com/Elsa-Reichert/megr2157-portfolio/blob/main/docs/assignments/A04/A4.SLDDRW)
-[CAD Drawing File](
+[CAD Drawing File](https://github.com/Elsa-Reichert/megr2157-portfolio/blob/main/docs/assignments/A04/A4.SLDDRW)
+[CAD Part File](https://github.com/Elsa-Reichert/megr2157-portfolio/blob/main/docs/assignments/A04/A4.SLDPRT)
