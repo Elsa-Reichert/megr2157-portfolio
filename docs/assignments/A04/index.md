@@ -13,9 +13,11 @@ A motor moment is designed to keep a motor place, hold the motors weight and abs
 [Source](https://autobuffy.com/newsroom/what-is-a-motor-mount-engine-mounts-explained)
 
 <img width="952" height="776" alt="image" src="https://github.com/user-attachments/assets/db40c7f5-0476-43ba-b00f-5d42527e499a" />
+
 Here is a simple motor mount from [gimsonrobotics.co.uk](https://gimsonrobotics.co.uk/products/stainless-steel-motor-mounting-bracket-for-45mm-gearboxes?_pos=1&_sid=e3835547a&_ss=r) made of 304 stainless steel. 
 
 <img width="600" height="425" alt="image" src="https://github.com/user-attachments/assets/f6ce1c7b-a546-40de-a827-4a2939be6e33" />
+
 Another simple design form [pololu.com](https://www.pololu.com/product/2266) made of aluminum. 
 
 ### Givens
@@ -27,6 +29,7 @@ PETG: yeild strenth = 46.2 MPa, E = 1939 MPA. [source](https://um-support-files.
 PLA: yield strenth = 52.5 MPa, E = 3250 Mpa. [Source](https://um-support-files.ultimaker.com/materials/2.85mm/tds/PLA/Ultimaker-PLA-TDS-v5.00.pdf)
 
 Image of the motor, the rigid wall, and the force p. P=300N
+
 <img width="153" height="113" alt="image" src="https://github.com/user-attachments/assets/ecc51106-ddf0-48af-ba1d-226a9c079dca" />
 
 ### Feature 1
@@ -48,6 +51,7 @@ My first thought was to have the shaft stick out intirely and add half the heigh
 I then desided on something like this to find the moment and vertical distance from P. I drew a faint dotted outline of the motor. The manufactorer gave a value with a 1 mm tolenernce. I decied to use 18mm as the distance value beacuse it was close, there is a tolenernce so I wouldnt be able to get an exact value, and the body of the motor rests above the center of the beam my calculated moment value would most likely end up being higher then the actual value at that point. This is good because the motor shaft could end up a different size, and using a higher moment will make it safer. 
 
 <img width="630" height="445" alt="image" src="https://github.com/user-attachments/assets/aea22497-3008-426e-8566-9f7cbcb7fc59" />
+
 <img width="292" height="118" alt="image" src="https://github.com/user-attachments/assets/9f1875b0-48b8-4edb-9f6f-03ecbfdc6b4e" />
 
 
@@ -67,11 +71,17 @@ I first started using the max. stress. I used a rectangular cross section the fi
 <img width="393" height="512" alt="image" src="https://github.com/user-attachments/assets/4bf78aab-5f89-44d5-802a-b4797dd79975" />
 
 
-I solved it again using a square cross sectinoal area. 
+I solved it again using a square cross sectional area. 
+
+
 <img width="618" height="122" alt="image" src="https://github.com/user-attachments/assets/d3d1ce9d-37e0-4038-b38f-5fa3c189a141" />
 
+
 <img width="322" height="410" alt="image" src="https://github.com/user-attachments/assets/b1471172-6a20-45a8-a9d9-8861d40e95a4" />
+
+
 <img width="430" height="416" alt="image" src="https://github.com/user-attachments/assets/a9a324f4-512a-4e1f-b10c-10cf6c6a2305" />
+
 
 #### Deflection equation
 Next I need to find the minimium length using the bending deflection equation
@@ -79,6 +89,7 @@ Next I need to find the minimium length using the bending deflection equation
 I need to use a safety factor of 3 for this feature. The equation given for deflection uses Young's Modulus. I have only ever used a safety factor to calculate the allowable stress or strain. I still think it is important to have a safety factor. I decided dividing the E value by 3 for the safety factor would function the same, because young's modulus is related to both stress and strain. My other idea was to divide the max. deflection by the safety factor, which would've had the same result but dividing the E value is more similar to what I have seen. 
 
 <img width="2156" height="2762" alt="image" src="https://github.com/user-attachments/assets/cf0d61b0-08ae-4b3e-be9a-562a5dd817c1" />
+
 <img width="2182" height="1723" alt="image" src="https://github.com/user-attachments/assets/8ec9a114-6dea-4fe1-906b-967e9154048d" />
 
 ### Feature 2
@@ -92,6 +103,7 @@ The moment for this feature could be different because it is at a different loca
 The moment ending up being the same value. I believe the gemoetry will end up the same because I will still be using a square cross section, the same materials, and the same givens. This will make the calculations quick.
 
 <img width="2159" height="3049" alt="IMG_8320" src="https://github.com/user-attachments/assets/e40f46a6-55ff-4084-b1b8-0bca09b1473e" />
+
 <img width="2239" height="2725" alt="IMG_8321" src="https://github.com/user-attachments/assets/a0687145-f210-4625-a2b5-b1356de29d7f" />
 
 I did end up with the same a value.
@@ -99,6 +111,7 @@ I did end up with the same a value.
 Now the L calculation
 
 <img width="2428" height="2757" alt="IMG_8322" src="https://github.com/user-attachments/assets/7bee841d-76db-4d13-8207-35cd33953197" />
+
 <img width="2394" height="2365" alt="IMG_8323" src="https://github.com/user-attachments/assets/ef871f8a-f1fb-4ccc-9295-168e7f74a88c" />
 
 I realized the square geometry might not work with the design. The found a value would be to small for the motor. I was going to go through and recalculate everything for a rectangle but the Area and a values found are minimiums. So I don't need to. Larger a values would also give me a larger L max. I will recalculate that after choosing new values. 
@@ -115,19 +128,25 @@ Using these values I came up with this design
 I next needed to recreate my design on a CAD program I did this on Solidworks. 
 
 First thing I did here was create equations for the variables to parametrically model it. 
+
 <img width="822" height="300" alt="Screenshot 2026-09-16 224830" src="https://github.com/user-attachments/assets/b4961fb9-bab8-4b1f-b00f-c273514954fd" />
 
 Used two bose extrudes
+
 <img width="562" height="520" alt="Screenshot 2026-09-16 225007" src="https://github.com/user-attachments/assets/4c45e730-868b-4761-ab36-5eeb0a9e2baf" />
 
 Added two more variables for the screw. 
+
 <img width="717" height="41" alt="Screenshot 2026-09-16 235618" src="https://github.com/user-attachments/assets/85dce251-ea9a-4226-9999-7e9304d2afd6" />
 
 Used a cut extrude to create the first screw hole than made a linear pattern.
+
 <img width="570" height="626" alt="Screenshot 2026-09-16 233747" src="https://github.com/user-attachments/assets/a02e6690-1a9e-4ed0-8010-1a80b845e5a4" />
 
 Then last I cut extruded the three holes for the motor to rest in. 
+
 <img width="627" height="567" alt="Screenshot 2026-09-16 234044" src="https://github.com/user-attachments/assets/5ceb840b-0ad7-4cf6-8c62-71611d47a347" />
+
 <img width="290" height="435" alt="image" src="https://github.com/user-attachments/assets/0381d3a2-0fab-4443-b23c-b18dc01bfe53" />
 
 I did not give any clearance for the shaft holes. I just changed these values
