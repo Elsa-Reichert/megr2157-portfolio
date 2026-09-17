@@ -123,6 +123,8 @@ Then last I cut extruded the three holes for the motor to rest in.
 I did not give an clearance for the shaft holes.
 <img width="940" height="315" alt="image" src="https://github.com/user-attachments/assets/d2d5f9a9-2309-4a29-8446-335050673766" />
 
+### 3D Model Drawing
+
 
 ## Decide
 
