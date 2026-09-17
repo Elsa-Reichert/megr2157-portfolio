@@ -67,7 +67,30 @@ I solved it again using a square cross sectinoal area.
 <img width="322" height="410" alt="image" src="https://github.com/user-attachments/assets/b1471172-6a20-45a8-a9d9-8861d40e95a4" />
 <img width="430" height="416" alt="image" src="https://github.com/user-attachments/assets/a9a324f4-512a-4e1f-b10c-10cf6c6a2305" />
 
-Next I need to find the maximium length using the bending deflection equation
+Next I need to find the minimium length using the bending deflection equation
+
+I need to use a safety factor of 3 for this feature. The equation given for deflection uses youngs modulus. I have only ever used a safety factor to calculate the allowble stress or strain. I still Think it is important to have a safety factor. I decided dividing the E value by 3 for the safety factor would fuctino the same, because youngs modulus is related to both stress and strain. My other itea was to divid the max. deflection by the safety factor, whcih wouldve had the same result but dividing the E value is more simular to what i have seen. 
+
+<img width="2156" height="2762" alt="image" src="https://github.com/user-attachments/assets/cf0d61b0-08ae-4b3e-be9a-562a5dd817c1" />
+<img width="2182" height="1723" alt="image" src="https://github.com/user-attachments/assets/8ec9a114-6dea-4fe1-906b-967e9154048d" />
+
+### Feature 2
+I need to design a feature of the mount to be attached to the wall. I can assume the rigid wall A can support bolts. I will be determining the cross sectinoal gemoetry using the same method.
+
+The moment for this feature is going to be different because it is at a different locatino realative to force p. My first step is to find the moment acting at the bottom corner. 
+
+<img width="2078" height="1989" alt="IMG_8319" src="https://github.com/user-attachments/assets/e09dfff3-2c42-45f0-8b4f-c05e2439ff83" />
+
+The moment ending up being the same value. I believe the gemoetry will end up the same because I will still be using a square cross section, the same materials, and the same givens. This will make the calculations quick.
+
+<img width="2159" height="3049" alt="IMG_8320" src="https://github.com/user-attachments/assets/e40f46a6-55ff-4084-b1b8-0bca09b1473e" />
+<img width="2239" height="2725" alt="IMG_8321" src="https://github.com/user-attachments/assets/a0687145-f210-4625-a2b5-b1356de29d7f" />
+
+I did end up with the same a value.
+
+Now the L calculation
+<img width="2428" height="2757" alt="IMG_8322" src="https://github.com/user-attachments/assets/7bee841d-76db-4d13-8207-35cd33953197" />
+<img width="2394" height="2365" alt="IMG_8323" src="https://github.com/user-attachments/assets/ef871f8a-f1fb-4ccc-9295-168e7f74a88c" />
 
 
 
