@@ -113,6 +113,17 @@ Used two bose extrudes
 Added two more vararibles for the screw. 
 <img width="717" height="41" alt="Screenshot 2026-09-16 235618" src="https://github.com/user-attachments/assets/85dce251-ea9a-4226-9999-7e9304d2afd6" />
 
+Used a cut extrude to create the first screw hole than made a linear pattern.
+<img width="570" height="626" alt="Screenshot 2026-09-16 233747" src="https://github.com/user-attachments/assets/a02e6690-1a9e-4ed0-8010-1a80b845e5a4" />
+
+Then last I cut extruded the three holes for the motor to rest in. 
+<img width="627" height="567" alt="Screenshot 2026-09-16 234044" src="https://github.com/user-attachments/assets/5ceb840b-0ad7-4cf6-8c62-71611d47a347" />
+<img width="290" height="435" alt="image" src="https://github.com/user-attachments/assets/0381d3a2-0fab-4443-b23c-b18dc01bfe53" />
+
+I did not give an clearance for the shaft holes.
+<img width="940" height="315" alt="image" src="https://github.com/user-attachments/assets/d2d5f9a9-2309-4a29-8446-335050673766" />
+
+
 ## Decide
 
 
