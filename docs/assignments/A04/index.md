@@ -97,6 +97,21 @@ I realized the square geometry would not work with the design. The found a value
 The diamater of the motor is 22mm. I will choose 24 mm as my a value. This gives me 576 mm^2 for my area this is well above my calulated minimium area. 
 
 Pluging in a = 24mm to my L max. equation from before I get L = 72.43mm.
+### Isometric view sketch 
+Using these values I came up with this design
+<img width="3024" height="2066" alt="IMG_8324" src="https://github.com/user-attachments/assets/189abfc7-3eea-46b5-9211-f9a3214163e7" />
+
+### 3D CAD mode;
+I next needed to recreate my design on a CAD program I did this on Solidworks. 
+
+First thing I did here was create equations for the variables to parametrically model it. 
+<img width="822" height="300" alt="Screenshot 2026-09-16 224830" src="https://github.com/user-attachments/assets/b4961fb9-bab8-4b1f-b00f-c273514954fd" />
+
+Used two bose extrudes
+<img width="562" height="520" alt="Screenshot 2026-09-16 225007" src="https://github.com/user-attachments/assets/4c45e730-868b-4761-ab36-5eeb0a9e2baf" />
+
+Added two more vararibles for the screw. 
+<img width="717" height="41" alt="Screenshot 2026-09-16 235618" src="https://github.com/user-attachments/assets/85dce251-ea9a-4226-9999-7e9304d2afd6" />
 
 ## Decide
 
