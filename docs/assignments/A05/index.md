@@ -54,6 +54,23 @@ I solved for the reaction force at that end by solving for the moment about the 
 
 The width of the feature needs to be the same as feature A. This means w = 2r. 
 
+Solving for t 
+[work 2]
+
+#### Figure C
+Knowns: F = 500 - 800lb, SF = 4, W =2F
+Unknowns: Cross sectional area and total length
+Assumptions: No failure due to direct shear stress, figure c can be treated as a simply supported beam with a concentrated load at the center
+
+I can treat it as a simply supported beam because it is supported at the end of the feature. There are also no forces acting in the x direction. The feature is cocentric with feature B which is why F is at that center. 
+
+Using this equation from the merchery textbook for the shear stress
+<img width="526" height="193" alt="image" src="https://github.com/user-attachments/assets/0c977eae-bcbb-47c4-91f2-c719407ce954" />
+
+I can solve for the minimium area
+[photo 3]
+
+
 ## Decide
 
 
