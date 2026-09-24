@@ -12,7 +12,14 @@ The design have a safety factor of 4
 
 The applied load F is between 500lb - 800lb
 
-I need to choose between aluminium 6061 T6, steel (ASTM A36), or Titanium (Ti-6Al-V4). I am going to use aluminium 6061 T6 whitch has a yield strenght of 240- 280 MPa and a shear strenght of 186 -217 MPa. [source](https://www.modulusmetal.com/aluminum-6061-t6-mechanical-properties/)
+I need to choose between aluminium 6061 T6, steel (ASTM A36), or Titanium (Ti-6Al-V4). 
+
+Aluminium 6061 = Yield Strength = 35 ksi
+ASTM A36: Yield Strength = 36 ksi
+Titanium: Yield Strength = 128 ksi
+[values are from here](https://en.wikipedia.org/wiki/Ti-6Al-4V)
+
+I will use Ti-6Al-4V for my bracket because of the high yield strenth. The shear strenth is 110 ksi and E = 16500 ksi. [source](https://www.aerospacemetals.com/wp-content/uploads/2023/07/Titanium-Ti-6Al-4V-Grade-5-STA-Data-Sheet.pdf)
 
 <img width="798" height="727" alt="image" src="https://github.com/user-attachments/assets/8495fac4-51e7-43fc-96c1-35799ef7f015" />
 
@@ -29,7 +36,7 @@ I am using the reacton forces from one dimension(s) as an applied load for the n
 #### Figure A
 There is a polyester strap applying a symetric horizontal force along this feature. We can treat this as a distrubuted load with total load, W, equal to 2F. We can also treat this feature as a cantilever beam because it is fixed to a feature at one end and has a force applied to it. 
 
-Knowns: F = 500 - 800lb, SF = 4, W = 2F,
+Knowns: F = 500 - 800lb, SF = 4, W = 2F, Yield Strength = 128 ksi 
 Unknowns: Cross sectinoal area, length
 Assumptions: We can treat figure A as a cantilever beam, no failure due to dircet shear stress
   
@@ -43,7 +50,7 @@ Definition of Z provided from the mechinery handbook ed. 29. The distnace from t
 Using the stress equation I was able to find the minimium area in terms of L. I will need to use bending analyis to find another equation to relate r and L.
 
 #### Figure B
-Knowns: F = 500 - 800lb, SF = 4, w = 2r
+Knowns: F = 500 - 800lb, SF = 4, w = 2r, Yield Strength = 128 ksi
 Unknowns: Cross sectional area and total length
 Assumptions: No failure due to direct shear stress, figure b can be treated as a axial loaded bar
 
@@ -58,7 +65,7 @@ Solving for t
 [work 2]
 
 #### Figure C
-Knowns: F = 500 - 800lb, SF = 4, Lc = 2a + b
+Knowns: F = 500 - 800lb, SF = 4, Lc = 2a + b, Yield Strength = 128 ksi
 Unknowns: Cross sectional area and total length
 Assumptions: No failure due to direct shear stress, figure c can be treated as a simply supported beam with a concentrated load at the center
 
@@ -74,7 +81,7 @@ I can solve for the width. We do not have enough infromation to find the thickne
 [photo 3]
 
 #### Figure D
-Knowns: F = 500 - 800lb, SF = 4
+Knowns: F = 500 - 800lb, SF = 4, Yield Strength = 128 ksi
 Unknowns: Cross sectional area and total length
 Assumptions: No failure due to direct shear stress, Feature D can be treated as a axial loaded bar
 
@@ -82,7 +89,7 @@ Solving for D
 [photo 4]
 
 #### feature E
-Knowns: F = 500 - 800lb, SF = 4, W = b = .9992 in
+Knowns: F = 500 - 800lb, SF = 4, W = b = .9992 in, Yield Strength = 128 ksi
 Unknowns: Cross sectional area and total length
 Assumptions: No failure due to direct shear stress, Feature E can be treated as a axial loaded bar
 
@@ -91,6 +98,33 @@ feature E is right above the b measurement given to us.
 
 I can solve for t.
 [photo E]
+
+#### Plugging in values
+Features 1 and 2 
+
+For freatures C, D ,E I need to find the width of feature E first. Then I can plug that into the equations for C and D. Using F = 800lb and converting ksi to psi.
+[6]
+
+### Stiffness Analysis
+Now I need to conduct stiffness analysis on the same 5 features. Each has a given deflection of .004 in and shear deflections are negligible. 
+
+#### Feature 1 
+Knowns: F = 500 - 800lb, SF = 4, W = 2F, Yield Strength = 128 ksi 
+Unknowns: Cross sectional area, length, Radius
+Assumptions: Shear deflections are negligible
+
+using this equation for max. dflection we can solve for L
+<img width="838" height="192" alt="image" src="https://github.com/user-attachments/assets/7a3363e2-8538-45cb-b66f-85c1aa6b9327" />
+
+[7]
+
+#### Feature 2
+
+
+#### Feature 3
+Using this equation from the mechninary handbook
+<img width="802" height="157" alt="image" src="https://github.com/user-attachments/assets/0fd89c42-67b0-457d-9bb0-c863178f9b3f" />
+
 
 ## Decide
 
