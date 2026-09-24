@@ -167,9 +167,7 @@ Assumptions: Shear deflections are negligible
 #### Stiffness Analysis
 <img width="366" height="397" alt="image" src="https://github.com/user-attachments/assets/70e33d99-3613-4ee5-af51-012b3fbae2d2" />
 
-
-
-
+#### Linkage
 <img width="302" height="187" alt="image" src="https://github.com/user-attachments/assets/97e19a5d-7165-4b12-acbe-ccea78416e21" />
 <img width="366" height="431" alt="image" src="https://github.com/user-attachments/assets/fb0d3e49-6ce0-4a00-9eac-728c9f104a9c" />
 
