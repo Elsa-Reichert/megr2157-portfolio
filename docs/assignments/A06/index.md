@@ -83,4 +83,4 @@ It is important to use the right tolerances for each feature/dimension. Differen
 The dimensioning and tolerancing can communicate which peices are mating/fucntional and the type of fit needed. 
 
 #### Files for models and drawings
-[Bracket model](
+[Bracket model](https://github.com/Elsa-Reichert/megr2157-portfolio/blob/main/docs/assignments/A06/A6.SLDPRT) [Bracket drawing](https://github.com/Elsa-Reichert/megr2157-portfolio/blob/main/docs/assignments/A06/A6.SLDDRW) [Link model](https://github.com/Elsa-Reichert/megr2157-portfolio/blob/main/docs/assignments/A06/A6%20link.SLDPRT)[Link drawing](https://github.com/Elsa-Reichert/megr2157-portfolio/blob/main/docs/assignments/A06/A6%20link.SLDDRW) 
