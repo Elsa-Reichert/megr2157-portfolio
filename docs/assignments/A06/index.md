@@ -39,8 +39,38 @@ Last, I needed to create a drawing of the model in third angle projection with a
 
 <img width="1664" height="914" alt="A6" src="https://github.com/user-attachments/assets/89fea917-5423-47f3-98be-0f29ddeba61b" />
 
-## Decide
+#### Link CAD Design
 
+First I created variables for the link.
+
+<img width="762" height="257" alt="Screenshot 2026-09-30 220753" src="https://github.com/user-attachments/assets/ef0cbab2-16d7-4f21-8fb0-6c0e7502ff46" />
+
+Started with this shape.
+<img width="542" height="642" alt="Screenshot 2026-09-30 220119" src="https://github.com/user-attachments/assets/5a4f648e-cc8e-48e8-930f-756482593965" />
+
+After created a bose extrude and cut the two holes I realized my model was not long enough. The calclated length for the ealier assignment was a maximium value, but it is related to the crosssectional area. I reclaculated the length value with the new cross sectional area and got 19in. 
+<img width="597" height="638" alt="Screenshot 2026-09-30 220736" src="https://github.com/user-attachments/assets/ba68dee5-5bb5-4342-bbed-a5da6a1464d4" />
+
+I went with 3 in because it was more practical, will cause less deflectino, and cost less to manufacture. 
+<img width="830" height="437" alt="Screenshot 2026-09-30 224411" src="https://github.com/user-attachments/assets/76c26380-b329-4c36-8277-a018c9f4bebc" />
+
+
+THis is what the final model looked like.
+
+
+<img width="1196" height="617" alt="image" src="https://github.com/user-attachments/assets/5dd62a3b-4d45-4fe9-917a-b7d8e9fdab80" />
+
+I had to change the diamaters in the model because I miss read the graphs I used on the last assignment. The tolerence values were given in thousands of an in.
+
+<img width="707" height="497" alt="image" src="https://github.com/user-attachments/assets/1341193e-f0f3-46a4-8e66-e657134caf16" />
+
+<img width="652" height="596" alt="Screenshot 2026-09-30 224135" src="https://github.com/user-attachments/assets/c83f3813-7b07-4f8b-9ef6-87bfbab7efa0" />
+
+[Tables from](https://www.cobanengineering.com/Tolerances/ANSIRunningSlidingFits.asp). These were used both from clearance limits and tolereance limts.
+
+#### Link Drawing
+Then I used this model to create an engineering drawing in Third-angle projection and tolerence blocks. 
+<img width="432" height="904" alt="A6 link" src="https://github.com/user-attachments/assets/87aba7e2-fc41-42cb-b3f2-56b19d3987b3" />
 
 ## Communicate
 #### Reflectinos
@@ -48,3 +78,9 @@ I did not use the stiffness or strenth equations explicitly in the parametric eq
 
 Most of the outside features of the struture had a .01 tolerence. This is because the outside area does not need to fit or slide into anything and therefor does not need a high tolerence. It is harder to meet smaller tolerances and using a larger tolerence when I can saves money on manufacturing. However the inside dimensions of the model do have higher tolerences. This is beacsue it is made to slide other strutures into it. It is a mating/functional surface.
 
+It is important to use the right tolerances for each feature/dimension. Different features have different functinos. It is important for part to part compatibility for specific dimenstinos. While other areas can have a lower tolerence. It is still important to use lower tolerances when possible because it will save you on time and money.
+
+The dimensioning and tolerancing can communicate which peices are mating/fucntional and the type of fit needed. 
+
+#### Files for models and drawings
+[Bracket model](
