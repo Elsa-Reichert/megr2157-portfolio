@@ -36,7 +36,7 @@ The final values I used.
 #### Bracket drawing
 Last, I needed to create a drawing of the model in third angle projection with a tolerance block. I kept most values at 2 decimal places because I did not need a high tolerance for those. The T shaped portion of the bracket is designed with specific sliding fits. It needs a higher tolerance because of its purpose. 
 
-<img width="1664" height="914" alt="A6" src="https://github.com/user-attachments/assets/89fea917-5423-47f3-98be-0f29ddeba61b" />
+<img width="742" height="578" alt="image" src="https://github.com/user-attachments/assets/19908b4e-96a1-41ee-ac2e-987995761552" />
 
 #### Link CAD Design
 
@@ -45,6 +45,8 @@ First I created variables for the link.
 <img width="762" height="257" alt="Screenshot 2026-09-30 220753" src="https://github.com/user-attachments/assets/ef0cbab2-16d7-4f21-8fb0-6c0e7502ff46" />
 
 Started with this shape.
+
+
 <img width="542" height="642" alt="Screenshot 2026-09-30 220119" src="https://github.com/user-attachments/assets/5a4f648e-cc8e-48e8-930f-756482593965" />
 
 After created a bose extrude and cut the two holes I realized my model was not long enough. The calclated length for the ealier assignment was a maximium value, but it is related to the cross sectional area. I decieded to use a larger cross sectional area. I then had to recalculate the length value with the new cross sectional area and got 19in. 
@@ -72,7 +74,8 @@ I had to change the diamaters in the model because I misread the graphs I used o
 #### Link Drawing
 Then I used this model to create an engineering drawing in Third-angle projection and tolerence blocks. 
 
-<img width="432" height="904" alt="A6 link" src="https://github.com/user-attachments/assets/87aba7e2-fc41-42cb-b3f2-56b19d3987b3" />
+<img width="846" height="631" alt="image" src="https://github.com/user-attachments/assets/25d52cc1-ba7b-4511-8a8a-77564607d154" />
+
 
 ## Communicate
 #### Reflections part 1
