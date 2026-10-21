@@ -204,8 +204,8 @@ They converge.
 
 
 ## Decide
-
+Each design choice was made to either reduce stress, bending, or material use. There was not a lot of stress in the upper portion of the model, so it made since to reduce material use/weight there. While the max. bending and stress was located at feature A, so it is more important to use more material here. 
 
 ## Communicate
-This assignment taught me how to use FEAs to analytically look out a model and make logical changes based on that to find the right balance between strength, stiffness, and weight. It is important to improve on your design. The found minimum and maximum values are also not the best ones to use. They give you a good starting point and allow you know what range you can have, but increasing a minium or reducing a maciumium found value can give you more strength, stiffness, allow for less material use or reduce the weight.
+This assignment taught me how to use FEAs to analytically look out a model and make logical changes based on that to find the right balance between strength, stiffness, and weight. It is important to improve on your design. The found minimium and maximum values are also not the best ones to use. They give you a good starting point and allow you know what range you can have, but increasing a minimium or reducing a maxiumium found value can give you more strength, stiffness, allow for less material use or reduce the weight.
 
