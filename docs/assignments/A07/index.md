@@ -87,10 +87,91 @@ New Values
 
 <img width="672" height="533" alt="image" src="https://github.com/user-attachments/assets/5ffdb4bb-1266-4053-9d36-b64c617ed989" />
 
+Convergence found using formula 
+Stress: 2%
+Displacement: .01%
+Safety Factor: 0.14%
 
+Convergence achived.
+
+###Design 2
+
+I reduced the length and width of some features. This was to reduce the weight and material needed to produce the model. I reduced the length and widths of features B-E because there was lot a lot of stress or bending here, So we did not need high cross-sectional areas. 
+
+<img width="715" height="535" alt="image" src="https://github.com/user-attachments/assets/d184562c-7b77-46ec-ba6a-095dcad58a3b" />
+
+These are the new values
+
+<img width="635" height="336" alt="image" src="https://github.com/user-attachments/assets/7412a8ea-ccac-4531-9499-7ebb8896691c" />
+
+New study using coase mesh and 1,600lbs of force along feature A
+
+<img width="793" height="542" alt="image" src="https://github.com/user-attachments/assets/be520a25-997e-48c4-9427-c16bc0292260" />
+
+<img width="755" height="546" alt="image" src="https://github.com/user-attachments/assets/e30e970f-9758-4b8b-9ee9-7e0fa367a503" />
+
+The values are still below/at the maxiumium, but we do have higher deflection and stress. The delection is right at that .005 in minimium. 
+
+New values
+  -Max Stress: 1.316e+04 PSI at the top and bottom of the cross section of the front portion of feature A.
+  -Max. deflection: 5.319e-03 at the end of feature A
+  -Mass: .82 lbs
+  -safety factor: 9
+  -Number of elements: Course mesh
+
+####Validate
+I will run another study on the same model but with a medium mesh density.
+
+New values
+<img width="366" height="462" alt="image" src="https://github.com/user-attachments/assets/87931db2-24e4-4ab8-8477-45c34bc512ab" />
+
+<img width="586" height="443" alt="image" src="https://github.com/user-attachments/assets/61ed7e24-3cf8-4075-93ae-23c433cdbc5b" />
+
+Calculating for convergence using the same forumla as before 
+  -Stress: .1%
+  -Displacement: 0%
+  -Safety Factor: 0%
+
+The values converge
+###Design 3
+I wanted to reduce the stress in feature A because it was consitracted in that one area, so i increased to radius of the cross section of feature A. This increased area will also cause less bending because it is related to the interia. 
+
+I also slightly reduced the length of feature A to reduce bending. I did not want to make it to short thought because it was made to hold a strap there. 
+
+new model
+<img width="582" height="485" alt="image" src="https://github.com/user-attachments/assets/4a017897-22f1-4b45-b58b-1fbeae47df12" />
+
+New dimensions
+<img width="757" height="327" alt="image" src="https://github.com/user-attachments/assets/532057ab-0bb5-457b-ad6a-2e1aaebfbaa1" />
+
+New study using course mesh and new model
+<img width="933" height="510" alt="image" src="https://github.com/user-attachments/assets/0ad8c67b-5adc-4957-a2ca-4abe9b7d447e" />
+
+<img width="875" height="558" alt="image" src="https://github.com/user-attachments/assets/50284f28-40bf-43a7-8123-040ad5e1a51f" />
+
+New values
+  -Max Stress: 3.102e+03 PSI at the top and bottom of the cross section of the front portion of feature A.
+  -Max. deflection: 6.078e-04 at the end of feature A
+  -Mass: 1.56
+  -safety factor: 39
+  -Number of elements: Course mesh
+
+####Validate 
+New study with the same model and medium mesh
+
+<img width="726" height="668" alt="image" src="https://github.com/user-attachments/assets/5b011e05-57da-4d24-b553-4d2be04e8314" />
+<img width="710" height="672" alt="image" src="https://github.com/user-attachments/assets/b2eda4a1-f4a0-4687-894e-9cae0e081981" />
+
+Calculating for convergence using the same forumla as before 
+  -Stress: .2%
+  -Displacement: 0%
+  -Safety Factor: 0%
+
+They converge.
 
 ## Decide
 
 
 ## Communicate
+This assignment taught me how to use FEAs to analytically look out a model and make logical changes based on that to find the right balance between strength, stiffness, and weight. It is important to improve on your design. The found minimum and maximum values are also not the best ones to use. They give you a good starting point and allow you know what range you can have, but increasing a minium or reducing a maciumium found value can give you more strength, stiffness, allow for less material use or reduce the weight.
 
