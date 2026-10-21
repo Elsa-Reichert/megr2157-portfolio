@@ -55,7 +55,8 @@ The max. stress and max. displacement from the study were higher than what I cal
 
 <img width="748" height="190" alt="image" src="https://github.com/user-attachments/assets/4d71951d-8863-45c8-bc53-c76a5be49b56" />
 
-{photo from notebook}
+<img width="457" height="227" alt="image" src="https://github.com/user-attachments/assets/dce1d40d-6e6c-410e-9f69-d5973205ebb8" />
+
 
 When calculating the geometry for the bracket, I treated feature A as being fixed to a wall. The forces used to claculate each feature was based off of that force on feature A being transfered. So I added another fixture to my study. This give me values a lot closer to what I calculated. 
 
@@ -68,10 +69,10 @@ New study results
 <img width="1310" height="652" alt="image" src="https://github.com/user-attachments/assets/62549e9d-2a4a-4020-ab8e-9eda6aff9aac" />
 
 Max. Stress = 1.174e+04 psi at the top and bottom of the cross section of the front portion of feature A.
-Max. Deflection = 4.768e-03 at the end of feature A
+Max. Deflection = 4.768e-03 in at the end of feature A
 Mass = 2.65 lb (given by solidworks)
 Safety Factor = 10
-Number of elements = 
+Number of elements = course mesh
 
 Now I need to validate the model by changing the mesh and checking for convergence.
 
@@ -152,7 +153,7 @@ New study using course mesh and new model
 New values
   -Max Stress: 3.102e+03 PSI at the top and bottom of the cross section of the front portion of feature A.
   -Max. deflection: 6.078e-04 at the end of feature A
-  -Mass: 1.56
+  -Mass: 1.56 lbs
   -safety factor: 39
   -Number of elements: Course mesh
 
@@ -168,6 +169,10 @@ Calculating for convergence using the same forumla as before
   -Safety Factor: 0%
 
 They converge.
+
+####Table filled out
+<img width="550" height="255" alt="image" src="https://github.com/user-attachments/assets/a572d999-c979-47f3-a8d4-f54927df8df4" />
+
 
 ## Decide
 
