@@ -47,6 +47,13 @@ For the first step I need to:
   -Diameter of the belt
   -Belts outer circumference
 
+<img width="580" height="462" alt="image" src="https://github.com/user-attachments/assets/6df3628a-b426-4038-879b-c0337f55c811" />
+
+<img width="3024" height="4032" alt="IMG_8536" src="https://github.com/user-attachments/assets/14e3603c-7667-4a57-bc00-f6866961d092" />
+
+<img width="2845" height="3530" alt="IMG_8537" src="https://github.com/user-attachments/assets/fb5a8198-ca21-42f9-8e16-e2c05d88feb0" />
+
+
 #### Find a belt
 5/16 in is the best option for a diameter. The calculated diameter, .270 in, is a minimium. 5/16 is the cloest to that value without going under. The only problem is they do not make a 5/16 diameter belt with a close circumference value. The next best option is 3/8. The website offers a 19 1/4 and a 19 1/2 in circumference. I will pick the 19 1/4 circumference because it needs to hold tension, so its better to round down a litte.
 
@@ -69,9 +76,8 @@ The yield strength of 1060 hardend steel is about 53.7ksi. Source: https://www.f
   -Torque 
   -minimum diameter
 
-<img width="532" height="351" alt="image" src="https://github.com/user-attachments/assets/f9d677ad-3168-495d-b323-78d6ae5b160b" />
+<img width="2439" height="2960" alt="IMG_8538" src="https://github.com/user-attachments/assets/414030fe-5f56-4ae5-b874-e6b3ced457f9" />
 
-Using the table from the MEcharinarys handbook we can see all the possible materials are acceptable for the journal barring. I will use acetal because I do not need the super high load capacities for this project.
 
 ### Part 3
 Next step is to design the journal bearing out of sintered or non metallic using Table 4 on pg 2440 in the Machinery's Handbook. I need to determind the pressure, linear velocity, PV rating, then find a suitable material.
@@ -87,12 +93,29 @@ We also know the load from the pully system will transfer to the journal bearing
   -Linear velocity
   -PV rating
   -Material for journal bearing
+  
+<img width="2439" height="2960" alt="IMG_8538" src="https://github.com/user-attachments/assets/14205773-6312-4f04-8f1f-cef5896d48d2" />
 
 <img width="532" height="351" alt="image" src="https://github.com/user-attachments/assets/6048684b-dbc0-4660-97db-0f2dcb878680" />
 This is from the Mechinaries Handbook. All the matierals can support the load capacities. I will choice acetal for the bearing material because I do not need to suportant any higher loads or speeds.
 
-## Decide
+####
+Part four is to use engineering analysis to design a frame whcih supports the pulley system.
+
+I decided to create a frame simular to this. The belt needed to be at a 180degrees and the tension could not be affected because my calculations were based off of that. This means only the weight of the pully system will affect the frame
+
+<img width="750" height="374" alt="image" src="https://github.com/user-attachments/assets/2a8fc208-2c06-4f67-b727-54e1db8f4350" />
+
+https://lyhsteel.com/steel-calculators/metal-density-chart/
+
+Shear strength of steel alloy is about 42 psi. 
+Source: https://www.engineersedge.com/materials/material_tensile_shear_and_yield_strength_15798.htm 
+
+<img width="2333" height="3142" alt="IMG_8540" src="https://github.com/user-attachments/assets/359133a0-e950-4703-ba9d-a8a0c147f0ea" />
+
+<img width="2333" height="3142" alt="IMG_8540" src="https://github.com/user-attachments/assets/9391c555-64fa-424e-bcd2-a91fb6e21fd4" />
 
 
 ## Communicate
-
+### Engineering lessons learned
+I learned how to design a pully system, how the angles and friction effect the tension forces in the pully, use these values I found to design a journal bearing and shaft, then to finally design a frame for the system.
