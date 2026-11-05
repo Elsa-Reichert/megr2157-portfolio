@@ -69,6 +69,27 @@ The yield strength of 1060 hardend steel is about 53.7ksi. Source: https://www.f
   -Torque 
   -minimum diameter
 
+<img width="532" height="351" alt="image" src="https://github.com/user-attachments/assets/f9d677ad-3168-495d-b323-78d6ae5b160b" />
+
+Using the table from the MEcharinarys handbook we can see all the possible materials are acceptable for the journal barring. I will use acetal because I do not need the super high load capacities for this project.
+
+### Part 3
+Next step is to design the journal bearing out of sintered or non metallic using Table 4 on pg 2440 in the Machinery's Handbook. I need to determind the pressure, linear velocity, PV rating, then find a suitable material.
+
+The belt choisen was 8/16 in, which means the thickness of the journal bearing has to be slightly bigger than that value. I will just round that value up to 1 in and use that for the width of the journal bearing. 
+
+We also know the load from the pully system will transfer to the journal bearing. For earlier we know it is 10 lbs.
+#### knowns
+  -Load = 10 lbs
+  -Roational Speed = 1500RPM
+
+#### Unknowns
+  -Linear velocity
+  -PV rating
+  -Material for journal bearing
+
+<img width="532" height="351" alt="image" src="https://github.com/user-attachments/assets/6048684b-dbc0-4660-97db-0f2dcb878680" />
+This is from the Mechinaries Handbook. All the matierals can support the load capacities. I will choice acetal for the bearing material because I do not need to suportant any higher loads or speeds.
 
 ## Decide
 
