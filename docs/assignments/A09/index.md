@@ -78,7 +78,6 @@ The yield strength of 1060 hardend steel is about 53.7ksi. Source: https://www.f
 
 <img width="2439" height="2960" alt="IMG_8538" src="https://github.com/user-attachments/assets/414030fe-5f56-4ae5-b874-e6b3ced457f9" />
 
-
 ### Part 3
 Next step is to design the journal bearing out of sintered or non metallic using Table 4 on pg 2440 in the Machinery's Handbook. I need to determind the pressure, linear velocity, PV rating, then find a suitable material.
 
@@ -99,14 +98,15 @@ We also know the load from the pully system will transfer to the journal bearing
 <img width="532" height="351" alt="image" src="https://github.com/user-attachments/assets/6048684b-dbc0-4660-97db-0f2dcb878680" />
 This is from the Mechinaries Handbook. All the matierals can support the load capacities. I will choice acetal for the bearing material because I do not need to suportant any higher loads or speeds.
 
-####
+#### Part four
+
 Part four is to use engineering analysis to design a frame whcih supports the pulley system.
 
 I decided to create a frame simular to this. The belt needed to be at a 180degrees and the tension could not be affected because my calculations were based off of that. This means only the weight of the pully system will affect the frame
 
 <img width="750" height="374" alt="image" src="https://github.com/user-attachments/assets/2a8fc208-2c06-4f67-b727-54e1db8f4350" />
 
-https://lyhsteel.com/steel-calculators/metal-density-chart/
+Source: https://lyhsteel.com/steel-calculators/metal-density-chart/
 
 Shear strength of steel alloy is about 42 psi. 
 Source: https://www.engineersedge.com/materials/material_tensile_shear_and_yield_strength_15798.htm 
