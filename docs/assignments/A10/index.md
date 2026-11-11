@@ -17,7 +17,7 @@ Young's Modulus (E) of aluminum is equal to 10.0 e+3 Ksi. Source:https://mechcod
 
 Givens: Yield Stength = 34,809, E = 10.0e+6 Psi, Diameter of the nut flange = 2.625 in, F =1000N =224.809lb, Safety Factor = 4, Max. deflection of the crosshead = .1mm = .003937 in
 
-###### Stress/Strenth anaylsis
+##### Stress/Strenth anaylsis
 
 <img width="779" height="434" alt="image" src="https://github.com/user-attachments/assets/dc09373c-d536-473f-95bb-02aa989ca313" />
 
