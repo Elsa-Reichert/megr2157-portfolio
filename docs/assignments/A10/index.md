@@ -71,6 +71,10 @@ Then I created a new assembly using the frame assmebly, crosshead, lead screw, a
 
 File: https://github.com/Elsa-Reichert/megr2157-portfolio/blob/main/docs/assignments/A10/Assem2.SLDASM
 
+##### Finite Element analysis
+
+I need to use Fininte Element Analysis on the crosshead to evalue stiffness and strength under a 2kN axial test load
+
 ## Decide
 _Reference your concept selection (Pugh matrix) here. How does this design follow from that decision?_
 
