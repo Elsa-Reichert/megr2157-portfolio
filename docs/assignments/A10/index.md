@@ -55,7 +55,7 @@ Then used a boss extrude and changed the material to aluminum 6061 to get the fi
 
 <img width="1201" height="644" alt="Screenshot 2026-11-11 122050" src="https://github.com/user-attachments/assets/6a844aea-d3c7-4e91-8def-90701923b074" />
 
-File: 
+File: https://github.com/Elsa-Reichert/megr2157-portfolio/blob/main/docs/assignments/A10/Crosshead.SLDPRT 
 
 Once that was created, I downloaded CAD models for the leadscrew, nut flange and t slotted framing rails. All these files are from mcmaster.com
 
@@ -63,13 +63,13 @@ I created the assembly of the frame first:
 
 <img width="1475" height="929" alt="image" src="https://github.com/user-attachments/assets/55f20ed1-448a-4ff1-b9c4-9fb4c7edf866" />
 
-File
+File: https://github.com/Elsa-Reichert/megr2157-portfolio/blob/main/docs/assignments/A10/Frame.SLDASM 
 
 Then I created a new assembly using the frame assmebly, crosshead, lead screw, and flange nut. 
 
 <img width="1341" height="931" alt="image" src="https://github.com/user-attachments/assets/692babdc-0260-468f-999d-6b4a18b02c7f" />
 
-File: 
+File: https://github.com/Elsa-Reichert/megr2157-portfolio/blob/main/docs/assignments/A10/Assem2.SLDASM
 
 ## Decide
 _Reference your concept selection (Pugh matrix) here. How does this design follow from that decision?_
