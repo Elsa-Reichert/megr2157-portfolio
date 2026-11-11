@@ -59,6 +59,18 @@ File:
 
 Once that was created, I downloaded CAD models for the leadscrew, nut flange and t slotted framing rails. All these files are from mcmaster.com
 
+I created the assembly of the frame first:
+
+<img width="1475" height="929" alt="image" src="https://github.com/user-attachments/assets/55f20ed1-448a-4ff1-b9c4-9fb4c7edf866" />
+
+File
+
+Then I created a new assembly using the frame assmebly, crosshead, lead screw, and flange nut. 
+
+<img width="1341" height="931" alt="image" src="https://github.com/user-attachments/assets/692babdc-0260-468f-999d-6b4a18b02c7f" />
+
+File: 
+
 ## Decide
 _Reference your concept selection (Pugh matrix) here. How does this design follow from that decision?_
 
