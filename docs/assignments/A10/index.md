@@ -11,9 +11,9 @@ I need to design the crosshead by analyzing the minimium strength required for t
 
 I decided to use aluminium 6061 for the material of the Crosshead because I saw some example crossheads made from the same material and the crosshead needs a bigger crosssection to hold the nut flanges, so the yeild strength doesn't need to be as high. 
 
-The Yield strength of aluminum 6061 is equal to 34,809-39,885. Source:https://guxiangjs.com/yield-strength-stress-chart/. I will use the smaller end of this range to be safe. 
+The Yield strength of aluminum 6061 is equal to 34,809-39,885. (Source)[https://guxiangjs.com/yield-strength-stress-chart] I will use the smaller end of this range to be safe. 
 
-Young's Modulus (E) of aluminum is equal to 10.0 e+3 Ksi. Source:https://mechcodex.com/materials/6061-t6-aluminum
+Young's Modulus (E) of aluminum is equal to 10.0 e+3 Ksi. (Source)[https://mechcodex.com/materials/6061-t6-aluminum]
 
 Givens: Yield Stength = 34,809, E = 10.0e+6 Psi, Diameter of the nut flange = 2.625 in, F =1000N =224.809lb, Safety Factor = 4, Max. deflection of the crosshead = .1mm = .003937 in
 
@@ -63,13 +63,13 @@ I created the assembly of the frame first:
 
 <img width="1475" height="929" alt="image" src="https://github.com/user-attachments/assets/55f20ed1-448a-4ff1-b9c4-9fb4c7edf866" />
 
-File: https://github.com/Elsa-Reichert/megr2157-portfolio/blob/main/docs/assignments/A10/Frame.SLDASM 
+(File)[https://github.com/Elsa-Reichert/megr2157-portfolio/blob/main/docs/assignments/A10/Frame.SLDASM]
 
 Then I created a new assembly using the frame assmebly, crosshead, lead screw, and flange nut. 
 
 <img width="1341" height="931" alt="image" src="https://github.com/user-attachments/assets/692babdc-0260-468f-999d-6b4a18b02c7f" />
 
-File: https://github.com/Elsa-Reichert/megr2157-portfolio/blob/main/docs/assignments/A10/Assem2.SLDASM
+(File)[https://github.com/Elsa-Reichert/megr2157-portfolio/blob/main/docs/assignments/A10/Assem2.SLDASM]
 
 ##### Finite Element analysis
 
@@ -115,7 +115,10 @@ Calculating the convergence using this equation:
 
 <img width="209" height="108" alt="image" src="https://github.com/user-attachments/assets/ca3f9f10-9136-4e86-81fb-8939627e8d55" />
 
-They do converge
+They do converge:
+
+<img width="762" height="292" alt="image" src="https://github.com/user-attachments/assets/f51dbee1-03cc-44c5-b93b-47962f6ff9f3" />
+
 
 
 Results:
@@ -135,7 +138,7 @@ I forgot to make space for the hole so I went back to the sketch, did a convert 
 
 Final peice:
 <img width="357" height="208" alt="image" src="https://github.com/user-attachments/assets/4e8526c8-7ee0-4e3d-9928-d96b273fcf08" />
-
+(File for new peice)[https://github.com/Elsa-Reichert/megr2157-portfolio/blob/main/docs/assignments/A10/Crosshead%20new.SLDPRT] 
 New results:
 <img width="721" height="451" alt="image" src="https://github.com/user-attachments/assets/754e7235-7740-4fff-8e69-5560638f54ca" />
 
@@ -148,6 +151,8 @@ According to solidworks the mass of the new design is 4.33lbs. The old design is
 ##### Drawing of crosshead
 
 <img width="1394" height="914" alt="Crosshead" src="https://github.com/user-attachments/assets/b5875902-ae3e-43a3-9e1c-484048ef33d2" />
+
+[File of Drawing](https://github.com/Elsa-Reichert/megr2157-portfolio/blob/main/docs/assignments/A10/Crosshead.SLDDRW)
 
 ## Decide
 _Reference your concept selection (Pugh matrix) here. How does this design follow from that decision?_
