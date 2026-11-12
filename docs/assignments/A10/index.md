@@ -145,9 +145,13 @@ New results:
 
 According to solidworks the mass of the new design is 4.33lbs. The old design is 3.46lbs. The max. stress went from 2.081e+3 psi down to 1.518e+03. The location of the max. stress is still at the same location, but it is not as high. The max. deflection went from  9.751e-4 in to 4.690e-4 in. That is almost half. The high deflection area is still towoard the edge of the center but less of it is at the maximium. The strain went from 1.254e-4 to 9.388e-05, still around the hole.
 
+##### Drawing of crosshead
+
+<img width="1394" height="914" alt="Crosshead" src="https://github.com/user-attachments/assets/b5875902-ae3e-43a3-9e1c-484048ef33d2" />
 
 ## Decide
 _Reference your concept selection (Pugh matrix) here. How does this design follow from that decision?_
 
 ## Communicate
-
+#### Elsa's Section
+Engineering lesson: I learned how to design a crosshead using contraints and already determined pieces. This was also our first group project in this class and it tought me how to cordinate with another person to get work done in an efficent way. I also got more practice with making assemblies in Solidworks.
