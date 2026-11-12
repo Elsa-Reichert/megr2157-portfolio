@@ -31,9 +31,9 @@ I need to design the crosshead by analyzing the minimium strength required for t
 
 I decided to use aluminum 6061 for the material of the Crosshead because I saw some example crossheads made from the same material and the crosshead needs a bigger cross section to hold the nut flanges, so the yield strength doesn't need to be as high. 
 
-The Yield strength of aluminum 6061 is equal to 34,809-39,885psi. (Source)[https://guxiangjs.com/yield-strength-stress-chart] I will use the smaller end of this range to be safe. 
+The Yield strength of aluminum 6061 is equal to 34,809-39,885psi. [Source](https://guxiangjs.com/yield-strength-stress-chart). I will use the smaller end of this range to be safe. 
 
-Young's Modulus (E) of aluminum is equal to 10.0 e+3 Ksi. (Source)[https://mechcodex.com/materials/6061-t6-aluminum]
+Young's Modulus (E) of aluminum is equal to 10.0 e+3 Ksi. [Source](https://mechcodex.com/materials/6061-t6-aluminum)
 
 Givens: Yield Stength = 34,809, E = 10.0e+6 Psi, Diameter of the nut flange = 2.625 in, F =1000N =224.809lb, Safety Factor = 4, Max. deflection of the crosshead = .1mm = .003937 in
 
@@ -141,6 +141,7 @@ They do converge:
 
 
 Results:
+
   -Max. von Mises stress and location: The max. stress is 2.081e+03 on the side of the hole closest to the middle.
   
   -Max. vertical deflection: The max. deflection is 9.851e-04 in and it is toward the middle edges of the crosshead.
