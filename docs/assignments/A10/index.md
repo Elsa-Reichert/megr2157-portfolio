@@ -75,6 +75,77 @@ File: https://github.com/Elsa-Reichert/megr2157-portfolio/blob/main/docs/assignm
 
 I need to use Fininte Element Analysis on the crosshead to evalue stiffness and strength under a 2kN axial test load
 
+I put two roller/sliders where the lead screw goes:
+
+<img width="1587" height="566" alt="image" src="https://github.com/user-attachments/assets/7e13773c-cb28-412c-946d-5eca14f38ade" />
+
+Then added a 449.6178lb force in the opposite direction:
+
+<img width="1315" height="573" alt="image" src="https://github.com/user-attachments/assets/6eb28447-46a7-45ec-846b-95950210453d" />
+
+First using a coarse mesh: 
+
+<img width="906" height="619" alt="image" src="https://github.com/user-attachments/assets/d105de23-e56e-4510-931e-0675bbb2b2dc" />
+
+Running the simulation with the roller/slider supports gave me an error that the deflection/stress was to high. I looked back at the fixture types and noticed a fixed hinge one. This is a lot closer to what is happening with the leadscrew. 
+
+New fixture:
+<img width="1545" height="704" alt="image" src="https://github.com/user-attachments/assets/d6aede68-cf67-497a-9815-884f814b7cf6" />
+
+Results:
+<img width="1322" height="565" alt="image" src="https://github.com/user-attachments/assets/b5576d91-6e77-4a77-b4f7-e011f592d2e4" />
+
+<img width="1024" height="566" alt="image" src="https://github.com/user-attachments/assets/2c34d156-5eff-472f-a339-74f0d216c162" />
+
+<img width="1018" height="548" alt="image" src="https://github.com/user-attachments/assets/376cee6f-3e0a-4c9a-b4c6-364672163af6" />
+
+I need to check for convergence.
+
+Running with a midium sized mesh:
+
+<img width="1522" height="607" alt="image" src="https://github.com/user-attachments/assets/817b9282-56ea-4f60-9f89-d0089bd20680" />
+
+<img width="1023" height="574" alt="image" src="https://github.com/user-attachments/assets/9d385509-5926-42bc-870b-0ae627e18db1" />
+
+<img width="493" height="538" alt="image" src="https://github.com/user-attachments/assets/4e8e21d6-b7eb-4ea7-8829-e4acdcc18d8e" />
+
+<img width="522" height="489" alt="image" src="https://github.com/user-attachments/assets/350d2038-ac76-4eaa-9139-dec2bfd9bcf0" />
+
+Calculating the convergence using this equation:
+
+<img width="209" height="108" alt="image" src="https://github.com/user-attachments/assets/ca3f9f10-9136-4e86-81fb-8939627e8d55" />
+
+They do converge
+
+
+Results:
+  -Max. von Mises stress and location: The max. stress is 2.081e+03 on the side of the hole closest to the middle.
+  -Max. vertical deflection: The max. deflection is 9.851e-04 in and it is toward the middle edges of the crosshead.
+  -Factory of safety: 19
+  -Load path or twisting/warping tendencies: The deflection is more at the side toward the middle of the crosshead which could cause some warping. The load path is at the middle.
+
+To try and improve the stresses around that those ends of the holes and deflection toward the middle I am going to add a thicker layer of aluminium over part of the peice:
+
+<img width="418" height="300" alt="image" src="https://github.com/user-attachments/assets/a103b02f-372b-4b7e-b03f-17bf845255af" />
+
+<img width="735" height="511" alt="image" src="https://github.com/user-attachments/assets/9522cf35-6f25-471c-aab2-e7a507b93c39" />
+
+I forgot to make space for the hole so I went back to the sketch, did a convert entites on the holes, then trimed entities:
+<img width="440" height="301" alt="image" src="https://github.com/user-attachments/assets/6c6f91af-ae46-49ce-8515-bb39e5bcd564" />
+
+Final peice:
+<img width="357" height="208" alt="image" src="https://github.com/user-attachments/assets/4e8526c8-7ee0-4e3d-9928-d96b273fcf08" />
+
+New results:
+<img width="721" height="451" alt="image" src="https://github.com/user-attachments/assets/754e7235-7740-4fff-8e69-5560638f54ca" />
+
+<img width="625" height="426" alt="image" src="https://github.com/user-attachments/assets/e65354a6-86fc-4dd1-9330-def86154578c" />
+
+<img width="646" height="443" alt="image" src="https://github.com/user-attachments/assets/ab002b82-d5ee-4767-bb41-c6d7986c6f0b" />
+
+According to solidworks the mass of the new design is 4.33lbs. The old design is 3.46lbs. The max. stress went from 2.081e+3 psi down to 1.518e+03. The location of the max. stress is still at the same location, but it is not as high. The max. deflection went from  9.751e-4 in to 4.690e-4 in. That is almost half. The high deflection area is still towoard the edge of the center but less of it is at the maximium. The strain went from 1.254e-4 to 9.388e-05, still around the hole.
+
+
 ## Decide
 _Reference your concept selection (Pugh matrix) here. How does this design follow from that decision?_
 
