@@ -198,7 +198,19 @@ Nut/Flange(s): Precision ACME Flange Nut. Amount: 2. Total: $201.69 X 2 = $403.3
 Website: https://www.mcmaster.com/97790A130/
 
 Total Cost thus far: $474.36 for Leadscrews and Nut/Flanges
+#### Elsa's section 
+To create the frame I used 2 1ft T slotted framing rails and 2 1.5ft T-slotted framing rails. 
+<img width="875" height="502" alt="image" src="https://github.com/user-attachments/assets/a8c3075d-88bd-42a0-b2b1-16c901da6ccf" />
+[Link to the 1 link frame.](https://www.mcmaster.com/47065T103-47065T414/). The serial number is Serial number 47065T103.
+[Link to the 1.5 inch frame.](https://www.mcmaster.com/47065T103-47065T576/) The serial number is Serial number 47065T103
 
+The 1.5 inch frames cost $22.56 each and the 1 inch frames cost $17.15 each
+
+We need 6061 aluminum for the cross head. I find those bars off the same website. The 1 ft option is $75.74
+<img width="1172" height="506" alt="image" src="https://github.com/user-attachments/assets/9dd7281b-c7ee-412b-9352-07315148a2c2" />
+[Link](https://www.mcmaster.com/8975K352-8975K351/) and the serial number is 8975K352.
+
+Adding up my costs and Max's costs to get the total cost: 629.52 before tax.
 
 ## Communicate
 #### Maxwell's section
