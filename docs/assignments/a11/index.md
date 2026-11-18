@@ -24,6 +24,37 @@ Firstly, I started with selecting the appropriate motors for the machine. I had 
 
 I chose the selected motor and generated the Speed-torque curve chart using ChatGPT by plugging in the data supplied by the Datasheet for the selected motor.
 
+### Elsa's motor mount bracket or housing section
+
+I needed to design a bracket to attact the motor to the frame. This frame needs to have four hole patterns to secure the mount. 
+
+The width, high, and location of holes where based on the drawing of the motor being used.
+
+<img width="1078" height="695" alt="image" src="https://github.com/user-attachments/assets/bfe8386d-7bea-4784-a7dc-c00631707919" />
+
+The equation for max. deflection, stress, moment of inertia, and the section modulus are all from the 29th edition of the mechinary's handbook are are listed below. 
+
+<img width="1138" height="195" alt="Screenshot 2026-11-18 150850" src="https://github.com/user-attachments/assets/d575ec1d-65c6-4e54-a8ff-8078b6c857db" />
+
+<img width="497" height="260" alt="Screenshot 2026-11-18 165359" src="https://github.com/user-attachments/assets/396fe143-c06d-481e-b57a-51f5fb8beb4e" />
+
+I choice alloinium alloy 6061 T6 for the material. Sources for the properties are from this website: https://mechcodex.com/materials/6061-t6-aluminum. 
+
+Work for finding the minimium thickness:
+
+<img width="2701" height="3326" alt="IMG_8633" src="https://github.com/user-attachments/assets/bc58dd86-914c-465c-b228-232b7239b0ff" />
+
+I first found the minimium thickness using the bending equation. I chose .1mm as the max. deflection, because that has been used frequanlty in past assignemts.
+
+<img width="2110" height="1568" alt="IMG_8634" src="https://github.com/user-attachments/assets/5666f6b4-3765-467b-9b66-98a32e75b6ab" />
+
+<img width="2143" height="1128" alt="IMG_8635" src="https://github.com/user-attachments/assets/1ac8fcb0-9594-45ce-8410-356b7e12f3b4" />
+
+Then I needed to check the minimium thickness using the stress equation. The found t value here was larger.
+
+<img width="2286" height="2543" alt="IMG_8636" src="https://github.com/user-attachments/assets/7c33d4b7-c196-4050-8719-ff47495482dc" />
+
+
 ### Maxwell's Coupling Analysis
 With the aid of various internet sources and AI, I researched various types of connectors and couplers on Grainer to find which would be the most ethical and appropriate for the tensile tester. One thing that caught my attention was for Flexible Jaw-Couplers, which were marketed as easy to install, long lasting, and perfect for axial forces supplied by the leadscrews. The other info that caught my attention was how it was also marketed to accomodate small misalingments should there be any.
 
@@ -37,6 +68,11 @@ My last objective was to select a bracket that would support/aid the frame from 
 
 <img width="684" height="812" alt="IMG_3113" src="https://github.com/user-attachments/assets/b5e2133d-7a00-4613-bca7-6500cd8c4424" />
 
+### Elsa's analysis of the top frame
+
+I need to verify that a heavy 40 series will provie the strength to hold the load and torque. I will do this using FEA analysis on solidworks. 
+
+### 
 ## Decide
 ### Motor
 <img width="558" height="340" alt="Screenshot 2026-11-17 102508" src="https://github.com/user-attachments/assets/1e117e1f-fce1-4bed-a103-0b965cbcf970" />
