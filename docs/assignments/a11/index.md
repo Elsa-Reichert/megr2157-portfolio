@@ -2,7 +2,7 @@
 
 ## Objective
 
-Maxwell's Section
+#### Maxwell's Section
 
 My task was to pick and select key components for the frame and motor mount of the tensile tester we created last week using Grainger as a resource tab and other various sources of information to collect data to formulate various reasonings why each selected component was chosen and the purpose they serve for the tensile tester. I selected the motor, motor type, a coupler/connector, and finally the brackets for the frame of the machine.
 
@@ -13,7 +13,8 @@ My task was to pick and select key components for the frame and motor mount of t
 <img width="695" height="149" alt="image" src="https://github.com/user-attachments/assets/97e577f1-998e-41e7-905e-8aec5d83b69b" />
 
 ## Analyze
-### Maxwell's Motor Analysis
+#### Max's Section
+### Motor Analysis
 Firstly, I started with selecting the appropriate motors for the machine. I had a choice to pick between DC, stepper, and gearmotor motors. I selected gearmotor as per my reasonings and analysis below, along with the specifications and data of the selected motor:
 
 [MP24-DataSheet-US.pdf](https://github.com/user-attachments/files/34981738/MP24-DataSheet-US.pdf)
@@ -59,20 +60,23 @@ I realized I made a mistake in my math, then reading the dimensions of the part:
 
 <img width="2381" height="1893" alt="IMG_8642" src="https://github.com/user-attachments/assets/d7e3244b-6410-4631-a6d0-2f0c3af553ff" />
 
-### Maxwell's Coupling Analysis
+#### Max's Section
+### Coupling Analysis
 With the aid of various internet sources and AI, I researched various types of connectors and couplers on Grainer to find which would be the most ethical and appropriate for the tensile tester. One thing that caught my attention was for Flexible Jaw-Couplers, which were marketed as easy to install, long lasting, and perfect for axial forces supplied by the leadscrews. The other info that caught my attention was how it was also marketed to accomodate small misalingments should there be any.
 
 With more research and data, as shown below, I discovered a Jaw-Coupler is 3 parts, 2 couplers and a center spider to catch the shocks caused by vibrations. One coupler would be attached to the leadscrews, the other to the motors with the center spider in the middle.
 
 <img width="684" height="812" alt="IMG_3112" src="https://github.com/user-attachments/assets/361298bd-fc6a-4bdf-8b5a-fb99d225e7c6" />
 
-### Maxwell's Analysis on Brackets
+#### Max's Section
+### Analysis on Brackets
 
 My last objective was to select a bracket that would support/aid the frame from the torsion the motors would afflict onto the frame during operation. This meant I had to select something sturdy and ethical that isn't too bulky and unnecessary while also not being too small and fragile.
 
 <img width="684" height="812" alt="IMG_3113" src="https://github.com/user-attachments/assets/b5e2133d-7a00-4613-bca7-6500cd8c4424" />
 
-### Elsa's analysis of the top frame
+#### Elsa's Section
+### analysis of the top frame
 
 I need to verify that a heavy 40 series will provie the strength to hold the load and torque. I will do this using FEA analysis on solidworks. 
 
@@ -94,7 +98,8 @@ Results:
 
 <img width="733" height="507" alt="image" src="https://github.com/user-attachments/assets/c768f863-d486-4922-a125-94ff5f5ffcd6" />
 
-####
+### Elsa's analysis of the vertical component
+
 <img width="1062" height="662" alt="image" src="https://github.com/user-attachments/assets/f2834154-f95b-46fb-9d09-8482662ea185" />
 
 <img width="1326" height="717" alt="image" src="https://github.com/user-attachments/assets/0f3cadf6-6476-4192-95ed-379fee366803" />
@@ -103,12 +108,33 @@ Results:
 
 <img width="910" height="616" alt="image" src="https://github.com/user-attachments/assets/b9b8ad37-9ea7-4779-94ad-6a0c342449bf" />
 
-### 
+### Maxwell's Floating Bearing Mount Design
+
+Here I was tasked with designing a mount for the leadscrew's using an RC3 class fit. Using the 32nd edition Machiner's Handbook, I looked up RC3 class fits and made the appropriate deigns of the top and bottom 2 bearing mounts as shown below. The used tolerances are highlighted in red.
+
+<img width="642" height="312" alt="IMG_3124" src="https://github.com/user-attachments/assets/11fd959a-4b8b-43cf-b4bf-b884710a0458" />
+
+<img width="684" height="812" alt="IMG_3125" src="https://github.com/user-attachments/assets/0899f8de-2d58-4c8c-9f32-07683e9cfc7b" />
+
+#### Elsa's section
+### Drawing package
+(https://github.com/Elsa-Reichert/megr2157-portfolio/blob/main/docs/assignments/a11/Crosshead.zip), https://github.com/Elsa-Reichert/megr2157-portfolio/blob/main/docs/assignments/a11/Motor%20mount.zip, https://github.com/Elsa-Reichert/megr2157-portfolio/blob/main/docs/assignments/a11/Assem2.zip
 ## Decide
+#### Max's Section
 ### Motor
 <img width="558" height="340" alt="Screenshot 2026-11-17 102508" src="https://github.com/user-attachments/assets/1e117e1f-fce1-4bed-a103-0b965cbcf970" />
 
-Total for 2 motors: Varies from 600-800 dollars each depending on gear ratio.
+Total for 2 motors: Varies from 600-800 dollars each depending on gear ratio.(REJECTED)
+
+After some collaboration with my groupmate, I realized an error with the motor selection above, the mount is on the side of the motor instead of the face where it would turn. This provided a design flaw to our final product. Therefore, I searched for a new motor with similar specifications and data much like the one above. Using more resources on the internet, I found the newly selected motor, however the price was not available publicly so the estimate according to other sources around this industrial style gearmotor motor is evaluated at around $550 a motor which is cheaper than the motor above while still providing the same specifications.
+
+[MMP BL87-435A-24V GP81-059.pdf](https://github.com/user-attachments/files/35060143/MMP.BL87-435A-24V.GP81-059.pdf)
+
+Estimated cost for 2 motors: 2 X $550 = $1100.
+
+Updated Motor speed-torque curve chart:
+
+<img width="489" height="382" alt="MMP BL87-435A-24V GRA81-059 estimated continuous torque-speed curve" src="https://github.com/user-attachments/assets/102ee144-821d-427b-96f0-0135e37aeb07" />
 ### Coupling/Connectors
 Motor Side hub X 2 = $418.74
 
