@@ -76,6 +76,33 @@ My last objective was to select a bracket that would support/aid the frame from 
 
 I need to verify that a heavy 40 series will provie the strength to hold the load and torque. I will do this using FEA analysis on solidworks. 
 
+I used the assembly created last week, added the motor mounts and deleted everything not part of the analysis. I created fixtures at the end.
+<img width="1288" height="670" alt="image" src="https://github.com/user-attachments/assets/953d78d5-a18b-4ad1-a9a3-a5ba28b0367b" />
+
+I had two 1kN forces pushing down at the motor mount, then two 2.01 torque forces caused by the leadscrew. 
+
+<img width="1060" height="572" alt="image" src="https://github.com/user-attachments/assets/bc7717a2-1b53-4631-8251-0d2b8b3db066" />
+
+Created a mesh:
+
+<img width="1086" height="498" alt="image" src="https://github.com/user-attachments/assets/167c055b-c1b8-4075-b2c2-ac083aa2a48a" />
+
+Results:
+<img width="746" height="536" alt="image" src="https://github.com/user-attachments/assets/a6257de9-d481-4fdb-af5c-fe0829f45924" />
+
+<img width="755" height="472" alt="image" src="https://github.com/user-attachments/assets/9a06c8af-06b9-4c4f-a3f4-90b27d4a1786" />
+
+<img width="733" height="507" alt="image" src="https://github.com/user-attachments/assets/c768f863-d486-4922-a125-94ff5f5ffcd6" />
+
+####
+<img width="1062" height="662" alt="image" src="https://github.com/user-attachments/assets/f2834154-f95b-46fb-9d09-8482662ea185" />
+
+<img width="1326" height="717" alt="image" src="https://github.com/user-attachments/assets/0f3cadf6-6476-4192-95ed-379fee366803" />
+
+<img width="768" height="618" alt="image" src="https://github.com/user-attachments/assets/d5f5ee0a-4ff9-47d1-9d6b-b5f3b181dfef" />
+
+<img width="910" height="616" alt="image" src="https://github.com/user-attachments/assets/b9b8ad37-9ea7-4779-94ad-6a0c342449bf" />
+
 ### 
 ## Decide
 ### Motor
