@@ -12,6 +12,16 @@ My task was to pick and select key components for the frame and motor mount of t
 
 <img width="695" height="149" alt="image" src="https://github.com/user-attachments/assets/97e577f1-998e-41e7-905e-8aec5d83b69b" />
 
+#### Elsa's Section
+For my portion of the project I will be doing these.
+<img width="602" height="205" alt="image" src="https://github.com/user-attachments/assets/e8d6ce0e-a2f2-4a2b-8a07-d51df07d8278" />
+
+<img width="622" height="420" alt="image" src="https://github.com/user-attachments/assets/fd89933a-9b05-4c6b-ac64-9d6550a7e2e1" />
+
+<img width="633" height="442" alt="image" src="https://github.com/user-attachments/assets/137aac7a-af30-4955-8a22-561adb808d3b" />
+
+<img width="612" height="462" alt="image" src="https://github.com/user-attachments/assets/db6cd42e-006b-4ba6-9522-3095bb462a6f" />
+
 ## Analyze
 #### Max's Section
 ### Motor Analysis
@@ -25,7 +35,8 @@ Firstly, I started with selecting the appropriate motors for the machine. I had 
 
 I chose the selected motor and generated the Speed-torque curve chart using ChatGPT by plugging in the data supplied by the Datasheet for the selected motor.
 
-### Elsa's motor mount bracket or housing section
+#### Elsa's Section
+### motor mount bracket or housing 
 
 I needed to design a bracket to attact the motor to the frame. This frame needs to have four hole patterns to secure the mount. 
 
@@ -98,7 +109,7 @@ Results:
 
 <img width="733" height="507" alt="image" src="https://github.com/user-attachments/assets/c768f863-d486-4922-a125-94ff5f5ffcd6" />
 
-### Elsa's analysis of the vertical component
+### analysis of the vertical component
 
 <img width="1062" height="662" alt="image" src="https://github.com/user-attachments/assets/f2834154-f95b-46fb-9d09-8482662ea185" />
 
@@ -108,7 +119,8 @@ Results:
 
 <img width="910" height="616" alt="image" src="https://github.com/user-attachments/assets/b9b8ad37-9ea7-4779-94ad-6a0c342449bf" />
 
-### Maxwell's Floating Bearing Mount Design
+#### Max's Section
+### Floating Bearing Mount Design
 
 Here I was tasked with designing a mount for the leadscrew's using an RC3 class fit. Using the 32nd edition Machiner's Handbook, I looked up RC3 class fits and made the appropriate deigns of the top and bottom 2 bearing mounts as shown below. The used tolerances are highlighted in red.
 
@@ -162,6 +174,8 @@ All of this was found on Grainger.com
 <img width="632" height="218" alt="Screenshot 2026-11-17 112005" src="https://github.com/user-attachments/assets/b12ff212-4f2f-4e68-a8bb-75d4afc2c62e" />
 
 4 brackets = $79.96
+
+[Costs in given template](https://github.com/Elsa-Reichert/megr2157-portfolio/blob/main/docs/assignments/a11/Copy%20of%20Tabulated%20cost%20for%20Assignment%20%2310.xlsx)
 
 ## Communicate
 
