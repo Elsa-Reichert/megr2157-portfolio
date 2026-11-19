@@ -54,6 +54,10 @@ Then I needed to check the minimium thickness using the stress equation. The fou
 
 <img width="2286" height="2543" alt="IMG_8636" src="https://github.com/user-attachments/assets/7c33d4b7-c196-4050-8719-ff47495482dc" />
 
+I realized I made a mistake in my math, then reading the dimensions of the part:
+<img width="3024" height="2725" alt="IMG_8641" src="https://github.com/user-attachments/assets/1e7df47e-7977-43d4-9751-8333fecdf8ff" />
+
+<img width="2381" height="1893" alt="IMG_8642" src="https://github.com/user-attachments/assets/d7e3244b-6410-4631-a6d0-2f0c3af553ff" />
 
 ### Maxwell's Coupling Analysis
 With the aid of various internet sources and AI, I researched various types of connectors and couplers on Grainer to find which would be the most ethical and appropriate for the tensile tester. One thing that caught my attention was for Flexible Jaw-Couplers, which were marketed as easy to install, long lasting, and perfect for axial forces supplied by the leadscrews. The other info that caught my attention was how it was also marketed to accomodate small misalingments should there be any.
